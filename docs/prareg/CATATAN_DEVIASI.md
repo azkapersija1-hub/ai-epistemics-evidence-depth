@@ -20,3 +20,12 @@
 - Akibatnya: (a) subset tervalidasi tim (lapis 40, 36, 26, 19) memuat klaim pilot (lapis 36: 9 klaim pilot dan 27 klaim dev); (b) analisis utama UTAMA-294 memasukkan 20 klaim pilot sesuai teks Amandemen 5; (c) varian UTAMA-274 (tanpa pilot) disediakan sebagai pembanding.
 - Keputusan pelaporan akhir (apakah angka utama memuat pilot) diserahkan kepada penulis. Selisih nilai titik terbesar antara UTAMA-294 dan UTAMA-274 pada metrik yang dilaporkan adalah 0,0205 (hitungan agen, berkas HASIL_PENGUJIAN/_utama294).
 - Sumber: harness/PREREG_DIBEKUKAN.md (bagian Aturan dan Amandemen 5); bahan/v2/hasil_olahan_final/lapis_36_claim_id.txt.
+
+## D4: Penetapan set pelaporan utama 274 klaim non-pilot
+
+Tercatat 16 November 2026, setelah seluruh pengumpulan data selesai. [PENULIS MEMASTIKAN tanggal dan isi entri ini.]
+
+- Amandemen 5 semula menetapkan 294 klaim (termasuk 20 klaim pilot) sebagai analisis utama.
+- Untuk laporan akhir, set pelaporan utama ditetapkan sebagai 274 klaim non-pilot (dev 78, val 98, holdout 98; 1.918 observasi per model), karena praregistrasi menyatakan pilot adalah tahap teknis yang tidak dilaporkan sebagai hasil.
+- Set 294 klaim (dengan pilot) tetap dilaporkan sebagai analisis tambahan, bersama kepekaan 290 dan 280 klaim.
+- Keputusan ini dibuat setelah data dikumpulkan. Hasil UTAMA-274 dan UTAMA-294 dihitung oleh skrip yang sama dan tersimpan di `results/utama294/`.
