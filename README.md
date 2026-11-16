@@ -41,7 +41,6 @@ repo/
   .gitignore
   CITATION.cff
   EXCLUDED.md
-  LICENSE_PERLU_DIPUTUSKAN.md
   README.md
   README_ID.md
   data/  (1 berkas langsung)
@@ -109,7 +108,7 @@ The report is being edited by the authors and is not final. The final report wil
 
 ## License
 
-Not yet decided. See `LICENSE_PERLU_DIPUTUSKAN.md`.
+Code (`src/`) is MIT licensed (`LICENSE`). Text, figures and reports are CC BY 4.0 (`LICENSE-DOCS.md`).
 
 ## Authors
 

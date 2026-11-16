@@ -5,7 +5,7 @@
 
 > **Status: persiapan dan hasil awal.** Keluaran model di folder `results/` ditandai oleh harness sebagai "HASIL MODEL (BELUM DIVERIFIKASI)" dan hanya sah sesuai praregistrasi. Repositori ini bukan kesimpulan.
 >
-> Konteks: Apart Research AI x Epistemics sprint. Lisensi belum diputuskan (lihat `LICENSE_PERLU_DIPUTUSKAN.md`).
+> Konteks: Apart Research AI x Epistemics sprint. Lisensi: MIT untuk kode, CC BY 4.0 untuk teks dan laporan (lihat `LICENSE` dan `LICENSE-DOCS.md`).
 
 ## Ringkasan
 
@@ -43,7 +43,6 @@ repo/
   .gitignore
   CITATION.cff
   EXCLUDED.md
-  LICENSE_PERLU_DIPUTUSKAN.md
   README.md
   README.md
   data/  (1 berkas langsung)
