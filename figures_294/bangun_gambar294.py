@@ -16,7 +16,7 @@ import textwrap
 from pathlib import Path
 
 ROOT = Path(r"C:\EPIS_KERJA\RENDER")
-OUT = ROOT / "gambar294"
+OUT = ROOT / "figures_294"
 CACHE = ROOT / "mplcache"
 OUT.mkdir(parents=True, exist_ok=True)
 CACHE.mkdir(parents=True, exist_ok=True)

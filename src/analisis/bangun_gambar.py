@@ -15,7 +15,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(r"C:\EPIS_KERJA\RENDER")
-OUT = ROOT / "gambar"
+OUT = ROOT / "figures"
 CACHE = ROOT / "mplcache"
 OUT.mkdir(parents=True, exist_ok=True)
 CACHE.mkdir(parents=True, exist_ok=True)

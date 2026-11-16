@@ -3,7 +3,7 @@
 ## Unit dan label
 - **Butir**: (klaim, 2-4 potongan bukti ber-ID, kunci). Dibangun dari artikel korpus yang punya abstract+results+conclusion dan DOI.
 - **Label kunci**: SUPPORTED (bukti cukup mendukung), REFUTED (bukti cukup membantah), **NEI** (potongan bukti yang diberikan, dalam rentang yang dicatat, tidak cukup mendukung maupun membantah). NEI **bukan** "anotator tidak tahu".
-- **Rentang bukti**: jenis sumber (abstrak/hasil/kesimpulan), langsung/tidak langsung, ada/tidak ada pertentangan; dicatat sebagai kovariat.
+- **Rentang bukti**: jenis sumber (abstrak/results/kesimpulan), langsung/tidak langsung, ada/tidak ada pertentangan; dicatat sebagai kovariat.
 - **Kunci diadjudikasi**: minimal dua anotator independen + adjudikator; kesepakatan dicatat (Cohen kappa). Butir tak bulat menjadi stratum, tidak dibuang diam-diam.
 
 ## Keluaran model

@@ -34,8 +34,8 @@ Daftar ini hanya menyebut nama dan alasan. Isi berkas yang dikecualikan tidak di
 
 | Yang dikecualikan | Alasan |
 |---|---|
-| `HASIL_PENGUJIAN/glm-5.3_DIHENTIKAN/` (berkas keluaran mentah) | Pengumpulan dihentikan. Holdout parsial tidak dianalisis dan tidak disalin (lihat `hasil/glm_dihentikan/CATATAN.md`). |
-| `harness/log/` (seluruhnya) | Folder log berisi items, keluaran sementara, dan laporan simulasi. Keluaran model yang dipakai sudah ada di `hasil/`. |
+| `HASIL_PENGUJIAN/glm-5.3_DIHENTIKAN/` (berkas keluaran mentah) | Pengumpulan dihentikan. Holdout parsial tidak dianalisis dan tidak disalin (lihat `results/glm_dihentikan/CATATAN.md`). |
+| `harness/log/` (seluruhnya) | Folder log berisi items, keluaran sementara, dan laporan simulasi. Keluaran model yang dipakai sudah ada di `results/`. |
 
 ## E. Cache, lingkungan, dan kunci API
 
@@ -56,7 +56,7 @@ Daftar ini hanya menyebut nama dan alasan. Isi berkas yang dikecualikan tidak di
 | `bahan/v2/hasil_olahan/` (olahan awal) | Digantikan oleh `data/kelayakan/`. |
 | `REFERENSI/LAMPIRAN_SUMBER_DATA.md` (v1), `REFERENSI/artikel_asal_36_klaim.csv` | Versi lama atau ringkas dari berkas yang sudah disalin. |
 | `RENDER/video/cek_bingkai/` | Bingkai pemeriksaan visual. Tidak diperlukan untuk reproduksi. |
-| `SESI_LUAR/gemini_antigravity/hasil/` dan `HASIL_PENGUJIAN/gemini_antigravity/PROMPT_GEMINI.md` | Duplikat dari berkas yang sudah disalin ke `hasil/` dan `sesi_luar/`. |
+| `SESI_LUAR/gemini_antigravity/results/` dan `HASIL_PENGUJIAN/gemini_antigravity/PROMPT_GEMINI.md` | Duplikat dari berkas yang sudah disalin ke `results/` dan `external_sessions/`. |
 | Folder `_kerja_*`, `_data_audit` pada tahap 1 riset, dan berkas di atas 5 MB | Pekerjaan kerja tahap 1 dan berkas besar. Di luar struktur. |
 | `CORE_ACADEMIC_DATA_AUDIT.md` dan `MODEL_FEASIBILITY_MATRIX.csv` di akar tahap 1 | Duplikat dari 06 dan 09 yang sudah disalin. |
 | `_template_src/apart_template.docx` (folder GITHUB_REPO) | Templat dokumen, bukan bagian repo. |
@@ -65,9 +65,9 @@ Daftar ini hanya menyebut nama dan alasan. Isi berkas yang dikecualikan tidak di
 
 | Yang dikecualikan | Alasan |
 |---|---|
-| `hasil/utama294/hash_cek.md` (sumber: `_utama294/hash_cek.md`) | Memuat path lokal absolut (`C:/EPIS_KERJA/...`) dan nama berkas di folder RAHASIA. |
+| `results/utama294/hash_cek.md` (sumber: `_utama294/hash_cek.md`) | Memuat path lokal absolut (`C:/EPIS_KERJA/...`) dan nama berkas di folder RAHASIA. |
 | `_utama294/hash_sebelum.txt` dan `_utama294/daftar_hash_input.txt` | Daftar hash internal yang memuat nama berkas di folder RAHASIA dan path relatif ke berkas harness. |
 | `_utama294/run_log.txt` | Log internal eksekusi skrip. Isinya sudah tercakup oleh `replikasi_cek.md` dan `CATATAN_UTAMA294.md`. |
 | Berkas kunci dan item (`bahan/v2/RAHASIA/`, `bahan/v2/items_model.jsonl`) | Kunci jawaban dan teks klaim atau bukti. Sama seperti bagian A dan B. |
 
-Berkas di `hasil/utama294/` dan `gambar294/` yang disalin: 18 berkas (tabel, analisis, catatan, dan skrip) dan 22 berkas (gambar H1 sampai H5, indeks, dan skrip pembangun). Daftar lengkap ada di `docs/PETA_PATH.md`.
+Berkas di `results/utama294/` dan `figures_294/` yang disalin: 18 berkas (tabel, analisis, catatan, dan skrip) dan 22 berkas (gambar H1 sampai H5, indeks, dan skrip pembangun). Daftar lengkap ada di `docs/PATH_MAP.md`.

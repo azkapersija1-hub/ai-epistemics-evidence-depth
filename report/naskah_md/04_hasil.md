@@ -27,7 +27,7 @@ Tabel D6 di Lampiran D memuat akurasi, ECE, dan AURC per jenis bukti. Pada selur
 
 **Gambar 1.** Panel ringkas hasil utama 294 klaim pada tiga model API. Interval kepercayaan 95 persen dari bootstrap klaster per artikel.
 
-![Gambar 1](gambar294/H5_panel_ringkas_utama294_id.png)
+![Gambar 1](figures_294/H5_panel_ringkas_utama294_id.png)
 
 ## 4.2 Hasil per split
 
