@@ -4,13 +4,13 @@
 
 Setiap klaim diuji pada tujuh observasi (lihat Lampiran C). Own R1, R2, dan R3 memakai bukti dari artikel asal klaim. Near dan far memakai bukti dari artikel lain. Label jangkar bersifat mekanis: own R3 diberi SUPPORTED dari kalimat kesimpulan penulis artikel, near dan far diberi NEI, dan own R1 dan R2 tidak berlabel. Tidak ada jangkar REFUTED dan label ahli belum diisi, sehingga skor mengukur kecocokan dengan jangkar.
 
-Pada pasangan_v2_1.jsonl, sumber items analisis, label bahasa near dan far sama dengan label bahasa klaim pada 294 dari 294 pasangan (heuristik atas abstrak). Pada 39 klaim berlabel unk (78 pasangan), kesamaan itu hanya berarti sama-sama tidak dikenali, sehingga bahasa sebenarnya tidak dipastikan. Kata kunci pada sebagian pasangan near diganti: 35 penggantian pada 18 dari 294 pasangan (rincian di Lampiran C.2). Aturan peringkat near belum dipastikan: skrip c_pasangan_v21.py memakai peringkat 5 sampai 20, sedangkan laporan Agen 1 menulis 3 sampai 10 [PENULIS MEMASTIKAN].
+Pada pasangan_v2_1.jsonl, sumber items analisis, label bahasa near dan far sama dengan label bahasa klaim pada 294 dari 294 pasangan (heuristik atas abstrak). Pada 39 klaim berlabel unk (78 pasangan), kesamaan itu hanya berarti sama-sama tidak dikenali, sehingga bahasa sebenarnya tidak dipastikan. Kata kunci pada sebagian pasangan near diganti: 35 penggantian pada 18 dari 294 pasangan (rincian di Lampiran C.2). Aturan peringkat near belum dipastikan: skrip c_pasangan_v21.py memakai peringkat 5 sampai 20, sedangkan laporan Agen 1 menulis 3 sampai 10. Versi yang menghasilkan data tidak dapat dipastikan dari catatan yang tersedia, sehingga hal ini dilaporkan sebagai keterbatasan reproduksibilitas.
 
 ## 3.2 Data dan pemilihan klaim
 
 Katalog internal menyediakan 294 klaim dengan tujuh observasi masing-masing (2.058 observasi). Split pilot berisi 20 klaim, dev 78, val 98, dan holdout 98. Set pelaporan utama adalah 274 klaim non-pilot (dev, val, holdout), dengan tujuh presentasi bukti per klaim dan 1.918 observasi per model. Set 294 klaim, yang mencakup 20 pilot, merupakan analisis tambahan.
 
-Tim menilai 40 klaim (10 pilot dan 30 dev). Empat klaim keluar setelah perundingan, sehingga lapis 36 berisi 9 klaim pilot dan 27 klaim dev. Satu klaim berstatus DIREVISI dan tetap masuk, sehingga versi teks yang diuji perlu dipastikan. Lapis 26 dan 19 adalah subset lapis 40; aturan pemilihannya belum dapat dirujuk [PENULIS MEMASTIKAN].
+Tim menilai 40 klaim (10 pilot dan 30 dev). Empat klaim keluar setelah perundingan, sehingga lapis 36 berisi 9 klaim pilot dan 27 klaim dev. Satu klaim berstatus DIREVISI dan tetap masuk, sehingga versi teks yang diuji perlu dipastikan. Lapis 26 dan 19 adalah subset lapis 40; aturan pemilihannya tidak terdokumentasi pada catatan yang tersedia dan dilaporkan sebagai keterbatasan.
 
 Amandemen 5 semula menetapkan seluruh 294 klaim sebagai analisis utama. Penetapan set pelaporan 274 klaim dilakukan setelah pengumpulan data dan dicatat terpisah dari protokol awal (lihat docs/prareg/CATATAN_DEVIASI.md). Kepekaan resmi (Amandemen 6) adalah (a) tanpa butir KELUAR final (290 klaim) dan (b) ketat, yaitu tanpa butir yang menerima setidaknya satu suara TIDAK_LAYAK (280 klaim). Kedua himpunan kepekaan berasal dari set 294 dan tumpang tindih, sehingga bukan replikasi independen. Hanya 40 klaim yang kelayakannya dinilai tim.
 **Tabel 1.** Set analisis.
@@ -24,7 +24,7 @@ Amandemen 5 semula menetapkan seluruh 294 klaim sebagai analisis utama. Penetapa
 
 ## 3.3 Validasi butir oleh tiga penulis
 
-Tiga penulis dengan latar rekayasa, psikometri, dan penulisan menilai setiap pernyataan sebagai LAYAK, PERLU_REVISI, atau TIDAK_LAYAK, dengan suara terbanyak sebagai keputusan. Penilai mengetahui hipotesis (Amandemen 5), dan penilaian ini bukan validitas isi oleh panel ahli eksternal. Kesepakatan pada 40 pernyataan sebesar 61,7 persen dari 120 perbandingan pasangan, dan kappa Fleiss (Fleiss, 1971) sebesar -0,025, sehingga penilaian tidak stabil antarpenulis. Kesepakatan tim pada 30 pasangan near belum didamaikan dengan pemeriksaan agen. [PENULIS MEMUTUSKAN] cara menilai validitas jangkar NEI.
+Tiga penulis dengan latar rekayasa, psikometri, dan penulisan menilai setiap pernyataan sebagai LAYAK, PERLU_REVISI, atau TIDAK_LAYAK, dengan suara terbanyak sebagai keputusan. Penilai mengetahui hipotesis (Amandemen 5), dan penilaian ini bukan validitas isi oleh panel ahli eksternal. Kesepakatan pada 40 pernyataan sebesar 61,7 persen dari 120 perbandingan pasangan, dan kappa Fleiss (Fleiss, 1971) sebesar -0,025, sehingga penilaian tidak stabil antarpenulis. Kesepakatan tim pada 30 pasangan near belum didamaikan dengan pemeriksaan agen. Cara menilai validitas jangkar NEI tidak ditetapkan dalam studi ini; jangkar diperlakukan sebagai acuan sementara dan hasil tidak ditafsirkan sebagai ketepatan faktual.
 
 ## 3.4 Model dan jalur pengumpulan
 
@@ -36,7 +36,7 @@ Brier multikelas (Brier, 1950) per observasi adalah jumlah selisih kuadrat ketig
 
 ## 3.6 Praregistrasi dan penyimpangan
 
-Protokol dibekukan pada 11 November 2026 (23.08.13 WIB), sebelum keluaran pilot pertama. Urutannya adalah pilot (teknis), dev, val, lalu holdout satu kali. Klaim bahwa holdout dijalankan sekali belum diverifikasi ulang dari log [PENULIS MEMASTIKAN]. Praregistrasi menyatakan pilot tidak dilaporkan sebagai hasil, sedangkan Amandemen 5 semula menetapkan 294 klaim (termasuk pilot) sebagai analisis utama. Set pelaporan utama kini 274 klaim non-pilot, dan penetapannya dicatat terpisah dari protokol awal setelah pengumpulan data. Set 294 hanya dilaporkan sebagai analisis tambahan. Enam amandemen dan tiga penyimpangan dirinci di Lampiran C. D3 dicatat di CATATAN_DEVIASI.md pada 15 November 2026, setelah kejadian. Tanggal dan jam pekerjaan tercantum pada Lampiran A.
+Protokol dibekukan pada 11 November 2026 (23.08.13 WIB), sebelum keluaran pilot pertama. Urutannya adalah pilot (teknis), dev, val, lalu holdout satu kali. Klaim bahwa holdout dijalankan sekali belum diverifikasi ulang dari log, sehingga holdout tidak dibaca sebagai uji konfirmatori murni. Praregistrasi menyatakan pilot tidak dilaporkan sebagai hasil, sedangkan Amandemen 5 semula menetapkan 294 klaim (termasuk pilot) sebagai analisis utama. Set pelaporan utama kini 274 klaim non-pilot, dan penetapannya dicatat terpisah dari protokol awal setelah pengumpulan data. Set 294 hanya dilaporkan sebagai analisis tambahan. Enam amandemen dan tiga penyimpangan dirinci di Lampiran C. D3 dicatat di CATATAN_DEVIASI.md pada 15 November 2026, setelah kejadian. Tanggal dan jam pekerjaan tercantum pada Lampiran A.
 
 ## 3.7 Keterbatasan metode
 

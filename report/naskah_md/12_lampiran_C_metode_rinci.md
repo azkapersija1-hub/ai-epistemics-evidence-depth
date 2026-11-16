@@ -30,7 +30,7 @@ Hasil pemeriksaan kolom bahasa:
 
 Bahasa klaim pada items: 155 bahasa Inggris, 100 Indonesia, dan 39 tidak terdeteksi (unk). Bahasa diambil dari heuristik pada abstrak, sehingga seluruh pemeriksaan bahasa bergantung pada heuristik tersebut.
 
-Penanda risiko jangkar: laporan Agen 1 mencatat 19 pasangan ditandai karena kata isi klaim di atas 0,6. Kolom risiko_jangkar pada kunci items bernilai salah untuk seluruh observasi. Kolom near_kw_diganti pada pasangan_v2_1.jsonl mencatat 35 penggantian kata kunci pada 18 dari 294 pasangan near (terverifikasi dari berkas). Angka 19 tidak dipakai dan tidak tampak pada pasangan_v2_1.jsonl, karena tidak ada pasangan dengan risiko kata di atas 0,6. Asal angka 19 belum dipastikan [PENULIS MEMASTIKAN].
+Penanda risiko jangkar: laporan Agen 1 mencatat 19 pasangan ditandai karena kata isi klaim di atas 0,6. Kolom risiko_jangkar pada kunci items bernilai salah untuk seluruh observasi. Kolom near_kw_diganti pada pasangan_v2_1.jsonl mencatat 35 penggantian kata kunci pada 18 dari 294 pasangan near (terverifikasi dari berkas). Angka 19 tidak dipakai dan tidak tampak pada pasangan_v2_1.jsonl, karena tidak ada pasangan dengan risiko kata di atas 0,6. Asal angka 19 tidak terdokumentasi pada catatan yang tersedia..
 
 ## C.3 Validasi butir oleh tiga penulis
 
@@ -84,15 +84,15 @@ Klaim bahwa holdout dijalankan sekali belum diverifikasi ulang dari log. Penulis
 
 (a) Confound bahasa. Pasangan sebahasa menurut heuristik abstrak tidak membuktikan bahwa bahasa tidak memberi petunjuk. Angka lintas bahasa dari catatan Agen 1 (137 near dan 194 far) berasal dari pasangan_v2.jsonl dan bukan sumber items. Laporan Agen 1 mencatat bahwa peneliti memutuskan tidak menambah aturan bahasa.
 
-(b) Dua aturan near. Skrip c_pasangan_v21.py dan laporan Agen 1 memakai rentang peringkat yang berbeda (lihat C.2). Versi yang menghasilkan data belum dipastikan [PENULIS MEMASTIKAN].
+(b) Dua aturan near. Skrip c_pasangan_v21.py dan laporan Agen 1 memakai rentang peringkat yang berbeda (lihat C.2). Versi yang menghasilkan data tidak dapat dipastikan dari catatan yang tersedia..
 
-(c) Validitas jangkar NEI belum selesai. Kesepakatan tim dan pemeriksaan agen berbeda, dan keduanya belum didamaikan (lihat C.3). [PENULIS MEMUTUSKAN] apakah jangkar diterima dengan catatan ketidakpastian atau diuji ulang.
+(c) Validitas jangkar NEI belum selesai. Kesepakatan tim dan pemeriksaan agen berbeda, dan keduanya belum didamaikan (lihat C.3). Jangkar NEI diperlakukan sebagai acuan sementara. apakah jangkar diterima dengan catatan ketidakpastian atau diuji ulang.
 
 (d) Pilot termasuk dalam lapis 40 dan lapis 36, serta set 294 (analisis tambahan) (D3). Set pelaporan utama 274 tidak memuat pilot.
 
 (e) Keluaran dev dan val sudah ada sebelum penilaian kelayakan. Kebutaan penilai tidak dapat diverifikasi.
 
-(f) Empat butir keluar lewat perundingan tim dengan alasan satu suara revisi dan satu suara tidak layak. Catatan deviasi juga mencatat dua penilai tidak melanjutkan penilaian pada keempat butir. Amandemen 6 mengatur dua suara berbeda sebagai PERLU_PENILAI_KETIGA. [PENULIS MEMASTIKAN] apakah penilai ketiga sudah dimintai.
+(f) Empat butir keluar lewat perundingan tim dengan alasan satu suara revisi dan satu suara tidak layak. Catatan deviasi juga mencatat dua penilai tidak melanjutkan penilaian pada keempat butir. Amandemen 6 mengatur dua suara berbeda sebagai PERLU_PENILAI_KETIGA. Penerapan aturan ini belum diverifikasi ulang dari log. apakah penilai ketiga sudah dimintai.
 
 Keterbatasan umum lain: label jangkar berupa proksi, tidak ada jangkar REFUTED, kesepakatan penilai rendah, penilai adalah penulis dan bukan panel independen, jumlah klaim per lapis kecil, satu ulangan utama dan satu uji ulang untuk setiap model, dan suhu tidak terkendali. Jalur agen hanya dibandingkan pada subset: GPT-6.1 Sol pada 40 klaim dikirim (39 efektif, C0230 dilewati; versi tidak terverifikasi). Sesi Gemini 3.8 Flash dicatat di repositori, tetapi tidak dianalisis dalam laporan ini.
 

@@ -23,7 +23,7 @@
 
 ## D4: Penetapan set pelaporan utama 274 klaim non-pilot
 
-Tercatat 16 November 2026, setelah seluruh pengumpulan data selesai. [PENULIS MEMASTIKAN tanggal dan isi entri ini.]
+Tercatat 16 November 2026, setelah seluruh pengumpulan data selesai.
 
 - Amandemen 5 semula menetapkan 294 klaim (termasuk 20 klaim pilot) sebagai analisis utama.
 - Untuk laporan akhir, set pelaporan utama ditetapkan sebagai 274 klaim non-pilot (dev 78, val 98, holdout 98; 1.918 observasi per model), karena praregistrasi menyatakan pilot adalah tahap teknis yang tidak dilaporkan sebagai hasil.

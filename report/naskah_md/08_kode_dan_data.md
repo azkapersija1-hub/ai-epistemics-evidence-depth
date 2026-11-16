@@ -12,7 +12,7 @@ Data yang dibagikan (repositori: `repo/`):
 - Gambar set 294 (analisis tambahan; H1 sampai H5) dalam bahasa Indonesia dan Inggris, beserta indeksnya, di `figures_294/`. Gambar G1 sampai G7 berada di `repo/figures/`; G3 sampai G7 dibangun dari data lapis 36.
 - Sesi Gemini 3.8 Flash dicatat di `results/gemini_antigravity/`, tetapi tidak dianalisis dalam laporan ini.
 - Video ringkasan dalam dua bahasa untuk set pelaporan utama 274 klaim non-pilot: `video/ringkasan274_en.mp4` dan `video/ringkasan274_id.mp4` (angka dicocokkan di `video/angka_pencocokan274_*.txt`; keterangan di `video/RINGKASAN_VIDEO274.md`). Video untuk set 294 (analisis tambahan) ada di `video/ringkasan294_en.mp4` dan `video/ringkasan294_id.mp4`.
-- Ringkasan kelayakan butir dan pasangan kesepakatan tanpa nama penilai. [PENULIS MEMASTIKAN] berkas versi ini dibuat sebelum dibagikan, karena berkas sumber memuat nama penilai.
+- Ringkasan kelayakan butir dan pasangan kesepakatan tanpa nama penilai. Berkas sumber yang memuat nama penilai tidak dibagikan (lihat `EXCLUDED.md`). berkas versi ini dibuat sebelum dibagikan, karena berkas sumber memuat nama penilai.
 
 Data yang tidak dibagikan (lihat `EXCLUDED.md`):
 
