@@ -16,4 +16,4 @@ Keterbatasan utama dibahas pada Bagian 3.7 dan Bagian Diskusi dan Keterbatasan. 
 
 (iv) Penelitian ini tidak mengembangkan kapabilitas yang berbahaya. Tugasnya menilai kesesuaian bukti dengan klaim akademik.
 
-(v) Ada risiko over-claim. Sampel kecil, hanya 40 dari 294 klaim yang kelayakannya dinilai tim, dan jangkar bukan label ahli. Istilah kalibrasi dalam laporan ini tidak dimaksudkan sebagai klaim bahwa model terkalibrasi. Hasil menggambarkan pola pada sampel ini dan tidak menetapkan model terbaik.
+(v) Ada risiko over-claim. Sampel kecil, hanya 40 klaim yang kelayakannya dinilai tim, dan jangkar bukan label ahli. Istilah kalibrasi dalam laporan ini tidak dimaksudkan sebagai klaim bahwa model terkalibrasi. Hasil menggambarkan pola pada sampel ini dan tidak menetapkan model terbaik.

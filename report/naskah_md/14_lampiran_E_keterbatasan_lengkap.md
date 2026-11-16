@@ -2,7 +2,7 @@
 
 Daftar berikut disalin dari Bagian 5.3 draf v2 dan tetap berlaku. Penanda [PENULIS MEMUTUSKAN] dan [PENULIS MEMASTIKAN] belum diselesaikan.
 
-1. **Subset tervalidasi kecil.** Dari 294 klaim, hanya 40 yang dinilai kelayakannya oleh tim, dan subset tervalidasi memuat 36 klaim. Analisis utama 294 tidak memiliki validasi per klaim.
+1. **Subset tervalidasi kecil.** Hanya 40 klaim yang dinilai kelayakannya oleh tim, dan subset tervalidasi memuat 36 klaim. Set pelaporan utama 274 tidak memiliki validasi per klaim.
 2. **Kunci mekanis, bukan ahli.** Label own R3 SUPPORTED dan label near serta far NEI bersifat mekanis. Lembar label ahli belum diisi, dan REFUTED tidak punya jangkar, sehingga ketepatan terhadap kebenaran belum dapat dinyatakan.
 3. **Validasi oleh tim yang mengetahui hipotesis.** Tiga penulis menilai kelayakan. Persen sepakat 61,7 persen pada 120 pasangan penilai dengan kappa Fleiss -0,025 (n = 40). Kesepakatan mendekati nol, dan hasil ini bukan CVI dari panel ahli.
 4. **Pengeluaran butir.** Empat klaim (C0056, C0295, C0057, C0225) dikeluarkan lewat perundingan tim pada 13 November 2026 dengan suara terbagi.
@@ -12,5 +12,5 @@ Daftar berikut disalin dari Bagian 5.3 draf v2 dan tetap berlaku. Penanda [PENUL
 8. **GLM-5.3 tidak dianalisis.** Model dihentikan pada 12 November 2026 setelah 594 dari 686 observasi holdout karena biaya token (D2 pada CATATAN_DEVIASI.md). Keluaran parsialnya tidak dianalisis.
 9. **Holdout sudah dijalankan.** Pra-registrasi menetapkan holdout sekali sebagai uji konfirmatori, dan holdout sudah dijalankan pada ketiga model API. Amandemen 2 dan 3, yang menambahkan qwen4-max-preview dan GLM-5.3, ditulis setelah hasil holdout model lain dilihat. Penulis mencatat tidak ada penyetelan terhadap hasil itu, tetapi urutan ini perlu dibaca hati-hati. Akibatnya holdout tidak murni konfirmatori bagi semua model. [PENULIS MEMASTIKAN: pelaksanaan holdout sekali pada ketiga model belum diverifikasi dari log.]
 10. **Model pratinjau dan setelan keluaran.** qwen4-max-preview adalah model pratinjau sehingga reproduksibilitasnya terbatas. Suhu dan mode berpikir tidak dapat diatur, sehingga hasil hanya berlaku untuk setelan default penyedia.
-11. **Pilot dalam angka utama.** Menurut pra-registrasi, pilot adalah uji teknis yang tidak dilaporkan sebagai hasil, tetapi klaim pilot masuk angka 294. Varian tanpa pilot disajikan sebagai pembanding.
+11. **Pilot dan penetapan set pelaporan.** Menurut pra-registrasi, pilot adalah uji teknis yang tidak dilaporkan sebagai hasil, tetapi Amandemen 5 semula menetapkan 294 klaim (termasuk pilot) sebagai analisis utama. Set pelaporan utama kini 274 klaim non-pilot; penetapannya dilakukan setelah pengumpulan data dan dicatat terpisah dari protokol awal. Set 294 adalah analisis tambahan.
 12. **Metadata dan bahasa.** Metadata artikel berasal dari katalog internal dan belum diverifikasi ke penerbit. Klaim berbahasa Indonesia dan Inggris bercampur, dan efeknya belum dianalisis terpisah.

@@ -2,23 +2,24 @@
 
 ## 5.1 Arti hasil
 
-Pada analisis utama, proporsi klaim dengan label R1 sama dengan label R3 berada pada rentang 0,4896 sampai 0,5306. Sekitar separuh klaim berubah label ketika bukti diperdalam dari abstrak ke teks penuh. Perubahan ini tidak menunjukkan vonis mana yang benar, sehingga laporan vonis LLM perlu menyebut kedalaman bukti yang dipakai. Pola false-support near R3 (0,2198 pada qwen4-max-preview) hanya dapat dibaca setelah pasangan near dan far divalidasi. Hasil ini tidak memberi peringkat model.
+Pada set pelaporan utama (274 klaim non-pilot), proporsi klaim dengan label R1 sama dengan label R3 berada pada rentang 0,5000 sampai 0,5511. Sekitar separuh klaim berubah label ketika bukti diperdalam dari abstrak ke teks penuh. Perubahan ini tidak menunjukkan vonis mana yang benar, sehingga laporan vonis LLM perlu menyebut kedalaman bukti yang dipakai. Pola false-support near R3 (0,2116 pada qwen4-max-preview) hanya dapat dibaca setelah pasangan near dan far divalidasi. Hasil ini tidak memberi peringkat model.
 
 ## 5.2 Implikasi untuk keselamatan
 
-Brier own R3 deepseek-v4.1-flash yang paling besar (0,0919) belum dapat dibaca sebagai kelemahan model. Pembacaan itu perlu diuji dengan jangkar yang divalidasi ahli. Standar evaluasi juga perlu menyatakan lapis klaim yang dipakai, karena kestabilan vonis dapat tampak berubah hanya karena pemilihan klaim.
+Brier own R3 deepseek-v4.1-flash yang paling besar (0,0981) belum dapat dibaca sebagai kelemahan model. Pembacaan itu perlu diuji dengan jangkar yang divalidasi ahli. Standar evaluasi juga perlu menyatakan lapis klaim yang dipakai, karena kestabilan vonis dapat tampak berubah hanya karena pemilihan klaim.
 
 [PENULIS MENGISI: posisikan temuan terhadap kajian terkait dengan rujukan dari referensi_terverifikasi.csv.]
 
 ## 5.3 Keterbatasan utama
 
-1. **Validasi kecil.** Hanya 40 dari 294 klaim yang dinilai kelayakannya oleh tim, dan subset tervalidasi memuat 36 klaim.
+1. **Validasi kecil.** Hanya 40 klaim yang dinilai kelayakannya oleh tim, dan subset tervalidasi memuat 36 klaim.
 2. **Kunci mekanis.** Label own R3 SUPPORTED dan near serta far NEI bukan penilaian ahli. REFUTED tidak memiliki jangkar.
 3. **Penilai mengetahui hipotesis.** Tiga penulis menilai kelayakan, dengan persen sepakat 61,7 persen dan kappa Fleiss -0,025 (n = 40). Validitas isi belum terbukti secara independen.
 4. **Jangkar NEI belum tervalidasi.** Dua versi penilaian pasangan near tidak sejalan: kesepakatan tim mencatat 30 pasangan membahas klaim, sedangkan pemeriksaan agen menilai 22 dari 30 tidak membahas klaim. [PENULIS MEMUTUSKAN: versi mana yang menjadi dasar label NEI.]
 5. **Jalur agen tidak terverifikasi.** GPT-6.1 Sol (tidak terverifikasi) diuji pada 40 klaim, dengan 39 klaim efektif, sebagai pembanding jalur agen.
-6. **Pilot dan holdout.** Pilot ikut dalam angka 294. Holdout dijalankan sekali pada tiga model API. Holdout tidak murni konfirmatori bagi semua model, karena Amandemen 2 dan 3 menambah model setelah hasil holdout model lain dilihat (Lampiran E, butir 9). [PENULIS MEMASTIKAN: pelaksanaan itu belum diverifikasi dari log.]
-7. **Setelan model.** Suhu dan mode berpikir tidak dapat diatur, dan qwen4-max-preview adalah model pratinjau.
+6. **Pilot dan holdout.** Set pelaporan utama 274 klaim tidak memuat pilot; set 294 yang memuat 20 pilot adalah analisis tambahan, dan penetapan set 274 dilakukan setelah pengumpulan data. Holdout dijalankan sekali pada tiga model API. Holdout tidak murni konfirmatori bagi semua model, karena Amandemen 2 dan 3 menambah model setelah hasil holdout model lain dilihat (Lampiran E, butir 9). [PENULIS MEMASTIKAN: pelaksanaan itu belum diverifikasi dari log.]
+7. **Batas inferensial.** Interval kesesuaian tumpang tindih antarmodel, tidak ada uji signifikansi berpasangan antarmodel, Brier gabungan tanpa interval bootstrap gabungan, dan jangkar bersifat mekanis dan sementara (own R3 SUPPORTED; near dan far NEI; tidak ada jangkar REFUTED). Penilaian tim atas 40 klaim (kesepakatan 61,7 persen dari 120 pasangan, kappa Fleiss -0,025, penilai mengetahui hipotesis) bukan validasi panel ahli eksternal. Hasil tidak membuktikan bahwa bukti yang lebih banyak memperbaiki ketepatan faktual.
+8. **Setelan model.** Suhu dan mode berpikir tidak dapat diatur, dan qwen4-max-preview adalah model pratinjau.
 
 Keterbatasan lengkap ada di Lampiran B dan Lampiran C. Daftar rinci juga tersedia di Lampiran E.
 

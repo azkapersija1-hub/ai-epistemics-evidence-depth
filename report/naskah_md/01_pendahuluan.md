@@ -7,7 +7,7 @@ Pertanyaan ketiga penting karena NEI dapat berarti dua hal. Bukti memang belum m
 Kontribusi penelitian ini adalah sebagai berikut.
 
 1. Desain tangga bukti R1, R2, dan R3 dengan label jangkar mekanis, tujuh bentuk bukti per klaim, dan pengukuran false-support pada bukti yang tidak menjawab klaim.
-2. Pengujian 294 klaim dengan tiga model API pada seluruh split, serta pembandingan jalur agen, yaitu GPT-6.1 Sol (tidak terverifikasi), pada subset. Sesi Gemini 3.8 Flash dicatat di repositori, tetapi tidak dianalisis dalam laporan ini.
-3. Protokol praregistrasi yang dibekukan sebelum keluaran pertama tercatat, dengan enam amandemen dan pelaporan penyimpangan. Kelayakan butir dinilai oleh tiga penulis hanya untuk 40 dari 294 klaim. Penilaian ini bukan validasi isi oleh panel ahli eksternal.
+2. Pengujian 274 klaim non-pilot (set pelaporan utama; 294 klaim termasuk 20 pilot sebagai analisis tambahan) dengan tiga model API pada split dev, val, dan holdout, serta pembandingan jalur agen, yaitu GPT-6.1 Sol (tidak terverifikasi), pada subset. Sesi Gemini 3.8 Flash dicatat di repositori, tetapi tidak dianalisis dalam laporan ini.
+3. Protokol praregistrasi yang dibekukan sebelum keluaran pertama tercatat, dengan enam amandemen dan pelaporan penyimpangan. Kelayakan butir dinilai oleh tiga penulis hanya untuk 40 klaim. Penilaian ini bukan validasi isi oleh panel ahli eksternal.
 
 Penelitian ini tidak menetapkan model terbaik. Label jangkar yang berupa proksi dibahas sebagai keterbatasan utama.

@@ -1,4 +1,6 @@
-# INDEKS294: gambar analisis utama 294 (tiga model API)
+# INDEKS294: gambar set 294 (analisis tambahan; tiga model API)
+
+> Catatan (diperbarui): gambar H1 sampai H5 memakai set UTAMA-294, yaitu 294 klaim termasuk 20 pilot. Set ini adalah analisis tambahan, bukan set pelaporan utama. Set pelaporan utama adalah 274 klaim non-pilot (dev 78, val 98, holdout 98). Gambar G1 sampai G7 ada di `figures/`. Teks di bawah ini adalah catatan pembangunan asli dan tidak diubah, sehingga istilah "utama" di dalamnya merujuk pada nama set UTAMA-294.
 
 Dibangun: 2026-11-15 11:32 oleh `C:\EPIS_KERJA\RENDER\gambar294\bangun_gambar294.py`. Ulang dengan: `py -3.12 -I -X utf8 C:\EPIS_KERJA\RENDER\gambar294\bangun_gambar294.py`.
 

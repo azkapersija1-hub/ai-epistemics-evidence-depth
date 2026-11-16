@@ -13,7 +13,7 @@ Berkas yang diperbaiki: 04_hasil.md, 05_diskusi_keterbatasan.md, 06_kesimpulan.m
 
 Perbaikan tambahan dari K2 yang menyangkut berkas saya: 04 bagian 4.5 kini menyebut 92,5 persen bila gagal parse dihitung sebagai beda, dan 78,9 persen pada R2 qwen3.8-flash (19 observasi). Lampiran E butir 5 tidak lagi memuat nama field "bahasa_longgar" dan menyebut 39 klaim unk. Istilah "Codex" pada 05 dan Lampiran D diseragamkan menjadi GPT-6.1 Sol (tidak terverifikasi).
 
-## 2. Brier gabungan: rumus dan nilai
+## 2. Brier gabungan: rumus dan nilai (set 294, analisis tambahan; tidak ada padanan 274)
 
 Rumus: Brier gabungan (model m) = sum_i (n_i x B_i) / sum_i n_i, dengan i adalah lima baris own R3, near R1, near R3, far R1, far R3 (batas 1), B_i adalah Brier batas 1 pada CSV tabel_utama294_3model.csv (set UTAMA-294), dan n_i adalah n pada baris CSV yang sama. Ini aritmetika langsung dari CSV dan tidak mengulang bootstrap.
 

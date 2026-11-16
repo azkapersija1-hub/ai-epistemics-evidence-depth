@@ -74,7 +74,7 @@ Penyimpangan:
 
 - D1: Gemini 3.8 Flash menyelesaikan sebagian batch holdout sekaligus, bukan per tiga batch. Batas persisnya tidak dapat dipastikan dari log.
 - D2: GLM-5.3 dihentikan pada 12 November 2026 setelah 594 dari 686 observasi holdout. Keluaran parsial tidak dianalisis dan tidak dipakai untuk klaim apa pun.
-- D3: sembilan klaim pilot berada di lapis 36. Praregistrasi menyatakan pilot sebagai uji teknis yang tidak dilaporkan sebagai hasil, tetapi juga menetapkan analisis utama pada 294 klaim yang mencakup pilot. Tabel utama menyajikan 274 klaim tanpa pilot sebagai pembanding. Lapis 36 memakai keputusan perundingan tim pada 13 November 2026, yang dibuat setelah keluaran dev tersedia.
+- D3: sembilan klaim pilot berada di lapis 36. Praregistrasi menyatakan pilot sebagai uji teknis yang tidak dilaporkan sebagai hasil, tetapi Amandemen 5 semula menetapkan analisis utama pada 294 klaim yang mencakup pilot. Set pelaporan utama kini 274 klaim non-pilot, ditetapkan setelah pengumpulan data dan dicatat terpisah dari protokol awal; set 294 disajikan sebagai analisis tambahan. Lapis 36 memakai keputusan perundingan tim pada 13 November 2026, yang dibuat setelah keluaran dev tersedia.
 
 Deviasi (dicatat): Brier gabungan dihitung sebagai rerata berbobot n dari lima Brier per jenis bukti tanpa CI bootstrap gabungan, sedangkan praregistrasi mensyaratkan CI bootstrap klaster untuk metrik primer. Deviasi ini belum tercatat di CATATAN_DEVIASI.md.
 
@@ -88,7 +88,7 @@ Klaim bahwa holdout dijalankan sekali belum diverifikasi ulang dari log. Penulis
 
 (c) Validitas jangkar NEI belum selesai. Kesepakatan tim dan pemeriksaan agen berbeda, dan keduanya belum didamaikan (lihat C.3). [PENULIS MEMUTUSKAN] apakah jangkar diterima dengan catatan ketidakpastian atau diuji ulang.
 
-(d) Pilot termasuk dalam lapis 40 dan lapis 36, serta analisis utama (D3).
+(d) Pilot termasuk dalam lapis 40 dan lapis 36, serta set 294 (analisis tambahan) (D3). Set pelaporan utama 274 tidak memuat pilot.
 
 (e) Keluaran dev dan val sudah ada sebelum penilaian kelayakan. Kebutaan penilai tidak dapat diverifikasi.
 

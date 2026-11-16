@@ -1,8 +1,28 @@
 # Lampiran D. Tabel hasil lengkap
 
-Angka berasal dari berkas CSV pada `HASIL_PENGUJIAN\_utama294`, `HASIL_PENGUJIAN\_lapis36`, dan `HASIL_PENGUJIAN\_retest_lapis19`. Desimal memakai koma. Nilai ditulis dengan empat desimal, pembulatan setengah ke atas. Interval kepercayaan 95 persen adalah bootstrap klaster per artikel (B=2000).
+Set pelaporan utama adalah 274 klaim non-pilot (Tabel D1); set 294 klaim adalah analisis tambahan. Tabel D3 dan D6 memakai set 294 (analisis tambahan) karena tidak punya padanan 274 pada tabel hasil. Angka berasal dari berkas CSV pada `HASIL_PENGUJIAN\_utama294`, `HASIL_PENGUJIAN\_lapis36`, dan `HASIL_PENGUJIAN\_retest_lapis19`. Desimal memakai koma. Nilai ditulis dengan empat desimal, pembulatan setengah ke atas. Interval kepercayaan 95 persen adalah bootstrap klaster per artikel (B=2000).
 
-**Tabel D1.** Hasil utama 294 klaim per model: nilai [CI 95 persen]. Angka n ditulis bila kurang dari 294.
+**Tabel D1.** Set pelaporan utama: 274 klaim non-pilot (dev 78, val 98, holdout 98; 1.918 observasi per model), per model: nilai [CI 95 persen]. Angka n ditulis bila kurang dari 274 (deepseek-v4.1-flash: 268 klaim dievaluasi untuk konsistensi R1 sampai R3 dan Brier own R3; qwen3.8-flash far R3: 273 observasi). Sumber: baris UTAMA-274 pada `results/utama294/tabel_utama294_3model.csv`.
+
+| Metrik | qwen3.8-flash | qwen4-max-preview | deepseek-v4.1-flash |
+|---|---|---|---|
+| Brier batas 1 own R3 (SUPPORTED) | 0,0343 [0,0120; 0,0613] | 0,0235 [0,0103; 0,0408] | 0,0981 [0,0584; 0,1436] (n=268) |
+| Brier batas 1 near R1 (NEI) | 0,0517 [0,0250; 0,0867] | 0,1036 [0,0689; 0,1412] | 0,0352 [0,0098; 0,0671] |
+| Brier batas 1 near R3 (NEI) | 0,1441 [0,0937; 0,1985] | 0,2191 [0,1627; 0,2775] | 0,0622 [0,0275; 0,1041] |
+| Brier batas 1 far R1 (NEI) | 0,0276 [0,0085; 0,0534] | 0,0512 [0,0280; 0,0778] | 0,0143 [0,0011; 0,0356] |
+| Brier batas 1 far R3 (NEI) | 0,0934 [0,0542; 0,1399] (n=273) | 0,1502 [0,1017; 0,2011] | 0,0764 [0,0392; 0,1197] |
+| Sesuai (label R1 = label R3) | 0,5146 [0,4562; 0,5730] | 0,5511 [0,4927; 0,6095] | 0,5000 [0,4440; 0,5597] (n=268) |
+| Pergeseran dS | 0,4683 [0,4210; 0,5173] | 0,4090 [0,3648; 0,4547] | 0,4162 [0,3643; 0,4682] (n=268) |
+| Pergeseran dN | 0,4439 [0,3961; 0,4925] | 0,3781 [0,3361; 0,4225] | 0,4007 [0,3505; 0,4508] (n=268) |
+| Overkomit (tau 0,7) | 0,0073 [0,0000; 0,0182] | 0,0073 [0,0000; 0,0182] | 0,0187 [0,0037; 0,0373] (n=268) |
+| False-support near R1 | 0,0691 [0,0525; 0,0885] | 0,1404 [0,1188; 0,1641] | 0,0437 [0,0302; 0,0604] |
+| False-support far R1 | 0,0357 [0,0237; 0,0511] | 0,0855 [0,0695; 0,1034] | 0,0203 [0,0122; 0,0323] |
+| Selisih FS near-far R1 | 0,0334 [0,0173; 0,0508] | 0,0549 [0,0338; 0,0757] | 0,0235 [0,0053; 0,0418] |
+| False-support near R3 | 0,1233 [0,0957; 0,1537] | 0,2116 [0,1800; 0,2437] | 0,0614 [0,0424; 0,0831] |
+| False-support far R3 | 0,0750 [0,0522; 0,1023] (n=273) | 0,1485 [0,1212; 0,1783] | 0,0528 [0,0324; 0,0766] |
+| Selisih FS near-far R3 | 0,0483 [0,0190; 0,0790] | 0,0631 [0,0389; 0,0879] | 0,0086 [-0,0133; 0,0275] |
+
+**Tabel D1b.** Set 294 klaim, termasuk 20 pilot (analisis tambahan, bukan set pelaporan utama), per model: nilai [CI 95 persen]. Angka n ditulis bila kurang dari 294.
 
 | Metrik | qwen3.8-flash | qwen4-max-preview | deepseek-v4.1-flash |
 |---|---|---|---|
@@ -36,13 +56,13 @@ Angka berasal dari berkas CSV pada `HASIL_PENGUJIAN\_utama294`, `HASIL_PENGUJIAN
 | holdout (98) | qwen4-max-preview | 0,0212 | 0,2409 | 0,1511 | 0,5612 | 0,2235 | 0,1469 |
 | holdout (98) | deepseek-v4.1-flash | 0,0739 | 0,0755 | 0,1097 | 0,4792 | 0,0680 | 0,0733 |
 
-**Tabel D3.** Kepekaan: nilai [CI 95 persen]. Subset tervalidasi tim adalah 36 klaim tanpa holdout; set kepekaan bersarang sehingga tidak diuji secara statistik.
+**Tabel D3.** Kepekaan pada himpunan bersarang dari set 294 (analisis tambahan; bukan set 274): nilai [CI 95 persen]. Himpunan tumpang tindih, bukan replikasi independen. Subset tervalidasi tim adalah 36 klaim tanpa holdout; set kepekaan bersarang sehingga tidak diuji secara statistik.
 
 | Set | Model | Sesuai | Brier own R3 | FS near R3 |
 |---|---|---|---|---|
-| UTAMA-294 (294) | qwen3.8-flash | 0,5034 [0,4456; 0,5612] | 0,0322 [0,0112; 0,0579] | 0,1270 [0,0998; 0,1580] |
-| UTAMA-294 (294) | qwen4-max-preview | 0,5306 [0,4728; 0,5850] | 0,0222 [0,0092; 0,0381] | 0,2198 [0,1890; 0,2523] |
-| UTAMA-294 (294) | deepseek-v4.1-flash | 0,4896 [0,4340; 0,5486] | 0,0919 [0,0547; 0,1340] | 0,0689 [0,0479; 0,0908] |
+| Set 294 (analisis tambahan) (294) | qwen3.8-flash | 0,5034 [0,4456; 0,5612] | 0,0322 [0,0112; 0,0579] | 0,1270 [0,0998; 0,1580] |
+| Set 294 (analisis tambahan) (294) | qwen4-max-preview | 0,5306 [0,4728; 0,5850] | 0,0222 [0,0092; 0,0381] | 0,2198 [0,1890; 0,2523] |
+| Set 294 (analisis tambahan) (294) | deepseek-v4.1-flash | 0,4896 [0,4340; 0,5486] | 0,0919 [0,0547; 0,1340] | 0,0689 [0,0479; 0,0908] |
 | KEPEKAAN-A (290) | qwen3.8-flash | 0,5103 [0,4517; 0,5655] | 0,0326 [0,0118; 0,0595] | 0,1284 [0,1015; 0,1562] |
 | KEPEKAAN-A (290) | qwen4-max-preview | 0,5379 [0,4828; 0,5931] | 0,0223 [0,0098; 0,0386] | 0,2212 [0,1895; 0,2522] |
 | KEPEKAAN-A (290) | deepseek-v4.1-flash | 0,4965 [0,4331; 0,5528] | 0,0931 [0,0552; 0,1371] | 0,0696 [0,0496; 0,0925] |
@@ -86,7 +106,7 @@ Angka berasal dari berkas CSV pada `HASIL_PENGUJIAN\_utama294`, `HASIL_PENGUJIAN
 | GPT-6.1 Sol (tidak terverifikasi) | R3 | 57 | 100,0 | - | 0,0043 |
 | GPT-6.1 Sol (tidak terverifikasi) | Semua | 133 | 99,2 | - | 0,0144 |
 
-**Tabel D6.** Akurasi, ECE, dan AURC per jenis bukti pada analisis utama 294 klaim, per model (sumber: analisis_UTAMA294.md, bagian A). Akurasi pada observasi NEI sama dengan recall NEI. Brier batas 1 tidak diulang di sini (lihat Tabel D1).
+**Tabel D6.** Akurasi, ECE, dan AURC per jenis bukti pada set 294 klaim (analisis tambahan; tidak ada padanan 274), per model (sumber: analisis_UTAMA294.md, bagian A). Akurasi pada observasi NEI sama dengan recall NEI. Brier batas 1 tidak diulang di sini (lihat Tabel D1 dan D1b).
 
 | Model | Jenis bukti | n | Akurasi | ECE | AURC |
 |---|---|---|---|---|---|

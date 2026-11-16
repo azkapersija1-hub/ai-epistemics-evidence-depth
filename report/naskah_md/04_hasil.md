@@ -1,31 +1,32 @@
 # 4. Hasil
 
-## 4.1 Hasil utama 294 klaim
+## 4.1 Hasil utama 274 klaim non-pilot
 
-Analisis utama memakai 294 klaim dengan 2058 observasi per model, mencakup pilot, dev, val, dan holdout. Tiga model API dianalisis: qwen3.8-flash, qwen4-max-preview, dan deepseek-v4.1-flash. Tabel 2 memuat tujuh metrik terpilih dan Brier gabungan. Nilai lengkap ada di Lampiran D (Tabel D1).
+Set pelaporan utama adalah 274 klaim non-pilot (dev 78, val 98, holdout 98) dengan tujuh presentasi bukti per klaim, yaitu 1.918 observasi per model. Tiga model API dianalisis: qwen3.8-flash, qwen4-max-preview, dan deepseek-v4.1-flash. Set 294 klaim yang mencakup 20 pilot disajikan sebagai analisis tambahan (Lampiran D, Tabel D1b). Penetapan set pelaporan 274 dilakukan setelah pengumpulan data dan dicatat terpisah dari protokol awal, yang melalui Amandemen 5 semula menetapkan 294 klaim sebagai analisis utama (docs/prareg/CATATAN_DEVIASI.md). Tabel 2 memuat metrik terpilih. Nilai lengkap ada di Lampiran D (Tabel D1).
 
-**Tabel 2.** Hasil utama 294 klaim per model: nilai [CI 95 persen]. Brier batas 1; angka n ditulis bila kurang dari 294.
+**Tabel 2.** Hasil utama 274 klaim non-pilot per model: nilai [CI 95 persen]. Brier batas 1; angka n ditulis bila kurang dari 274 (deepseek-v4.1-flash: 8 gagal parse final, sehingga 268 klaim dapat dievaluasi untuk konsistensi R1 sampai R3 dan Brier own R3; qwen3.8-flash far R3: 273 observasi).
 
 | Metrik | qwen3.8-flash | qwen4-max-preview | deepseek-v4.1-flash |
 |---|---|---|---|
-| Brier own R3 (SUPPORTED) | 0,0322 [0,0112; 0,0579] | 0,0222 [0,0092; 0,0381] | 0,0919 [0,0547; 0,1340] (n=288) |
-| Brier near R3 (NEI) | 0,1466 [0,0977; 0,2013] | 0,2312 [0,1753; 0,2932] | 0,0749 [0,0361; 0,1164] |
-| Brier far R3 (NEI) | 0,0871 [0,0505; 0,1307] (n=293) | 0,1455 [0,1010; 0,1938] | 0,0712 [0,0355; 0,1144] |
-| Sesuai (R1 = R3) | 0,5034 [0,4456; 0,5612] | 0,5306 [0,4728; 0,5850] | 0,4896 [0,4340; 0,5486] (n=288) |
-| Overkomit (tau 0,7) | 0,0068 [0,0000; 0,0170] | 0,0068 [0,0000; 0,0170] | 0,0208 [0,0069; 0,0382] (n=288) |
-| False-support near R3 | 0,1270 [0,0998; 0,1580] | 0,2198 [0,1890; 0,2523] | 0,0689 [0,0479; 0,0908] |
-| False-support far R3 | 0,0707 [0,0503; 0,0952] (n=293) | 0,1487 [0,1230; 0,1765] | 0,0499 [0,0304; 0,0731] |
-| Brier gabungan (rerata berbobot n lima jenis bukti, tanpa CI) | 0,0691 | 0,1119 | 0,0569 |
+| Brier own R3 (SUPPORTED) | 0,0343 [0,0120; 0,0613] | 0,0235 [0,0103; 0,0408] | 0,0981 [0,0584; 0,1436] (n=268) |
+| Brier near R3 (NEI) | 0,1441 [0,0937; 0,1985] | 0,2191 [0,1627; 0,2775] | 0,0622 [0,0275; 0,1041] |
+| Brier far R3 (NEI) | 0,0934 [0,0542; 0,1399] (n=273) | 0,1502 [0,1017; 0,2011] | 0,0764 [0,0392; 0,1197] |
+| Sesuai (R1 = R3) | 0,5146 [0,4562; 0,5730] | 0,5511 [0,4927; 0,6095] | 0,5000 [0,4440; 0,5597] (n=268) |
+| Overkomit (tau 0,7) | 0,0073 [0,0000; 0,0182] | 0,0073 [0,0000; 0,0182] | 0,0187 [0,0037; 0,0373] (n=268) |
+| False-support near R3 | 0,1233 [0,0957; 0,1537] | 0,2116 [0,1800; 0,2437] | 0,0614 [0,0424; 0,0831] |
+| False-support far R3 | 0,0750 [0,0522; 0,1023] (n=273) | 0,1485 [0,1212; 0,1783] | 0,0528 [0,0324; 0,0766] |
+| Selisih FS near-far R1 | 0,0334 [0,0173; 0,0508] | 0,0549 [0,0338; 0,0757] | 0,0235 [0,0053; 0,0418] |
+| Selisih FS near-far R3 | 0,0483 [0,0190; 0,0790] | 0,0631 [0,0389; 0,0879] | 0,0086 [-0,0133; 0,0275] |
 
-**Pengamatan.** Brier own R3 terkecil ada pada qwen4-max-preview (0,0222) dan terbesar pada deepseek-v4.1-flash (0,0919). Brier near R3 tertinggi ada pada qwen4-max-preview (0,2312). Pada R1, selisih false-support near dan far positif pada ketiga model dan intervalnya tidak mencakup nol. Pada R3, selisih positif tanpa mencakup nol hanya tampak pada qwen3.8-flash dan qwen4-max-preview; interval deepseek-v4.1-flash mencakup nol (Lampiran D, Tabel D1). Interval Sesuai ketiga model saling tumpang tindih. Tanpa pilot (274 klaim), nilai berubah paling banyak 0,0205.
+**Pengamatan.** Brier own R3 terkecil ada pada qwen4-max-preview (0,0235) dan terbesar pada deepseek-v4.1-flash (0,0981). Brier near R3 tertinggi ada pada qwen4-max-preview (0,2191). Pada R1, selisih false-support near dan far positif pada ketiga model dan intervalnya tidak mencakup nol. Pada R3, selisih positif tanpa mencakup nol hanya tampak pada qwen3.8-flash dan qwen4-max-preview; interval deepseek-v4.1-flash mencakup nol (Lampiran D, Tabel D1). Interval Sesuai ketiga model saling tumpang tindih. Nilai pada set 294 (analisis tambahan) berbeda paling banyak 0,0205 dari nilai pada set 274 (CATATAN_DEVIASI.md, D3).
 
-Brier gabungan adalah rerata berbobot n dari lima baris Brier batas 1 (own R3, near R1, near R3, far R1, far R3) per model. Nilai ini dipakai sebagai pengganti metrik primer tunggal yang tidak tersedia di berkas CSV. Interval bootstrap untuk nilai gabungan belum dihitung, sehingga ini deviasi dari rencana dan tidak dapat dibandingkan langsung dengan interval per jenis bukti.
+Brier gabungan (rerata berbobot n dari lima baris Brier batas 1: own R3, near R1, near R3, far R1, far R3) tidak dilaporkan untuk set 274 karena tidak tersedia pada tabel hasil set itu. Nilai pada set 294 (analisis tambahan) adalah 0,0691 (qwen3.8-flash), 0,1119 (qwen4-max-preview), dan 0,0569 (deepseek-v4.1-flash), tanpa interval bootstrap gabungan, sehingga ini deviasi dari rencana dan tidak dapat dibandingkan langsung dengan interval per jenis bukti.
 
-**Tafsiran.** Arah false-support near lebih tinggi daripada far tampak pada R1 di ketiga model, dan pada R3 di dua model qwen. Selisih antar model belum diuji secara formal, dan pasangan near dan far belum divalidasi secara independen (Bagian 5.3).
+**Tafsiran.** Arah false-support near lebih tinggi daripada far tampak pada R1 di ketiga model, dan pada R3 di dua model qwen. Selisih antar model belum diuji secara formal: tidak ada uji signifikansi berpasangan antarmodel, dan interval kesesuaian R1 dan R3 tumpang tindih antarmodel. Pasangan near dan far belum divalidasi secara independen (Bagian 5.3). Jangkar bersifat mekanis dan sementara (own R3 SUPPORTED; near dan far NEI; tidak ada jangkar REFUTED). Hasil tidak membuktikan bahwa bukti yang lebih banyak memperbaiki ketepatan faktual.
 
-Tabel D6 di Lampiran D memuat akurasi, ECE, dan AURC per jenis bukti. Pada seluruh sel, ECE berada pada rentang 0,0071 sampai 0,0460 dan akurasi pada rentang 0,8537 sampai 0,9932. Pada observasi NEI, akurasi sama dengan recall NEI.
+Tabel D6 di Lampiran D memuat akurasi, ECE, dan AURC per jenis bukti pada set 294 (analisis tambahan; tidak ada padanan 274 pada tabel hasil). Pada seluruh sel, ECE berada pada rentang 0,0071 sampai 0,0460 dan akurasi pada rentang 0,8537 sampai 0,9932. Pada observasi NEI, akurasi sama dengan recall NEI.
 
-**Gambar 1.** Panel ringkas hasil utama 294 klaim pada tiga model API. Interval kepercayaan 95 persen dari bootstrap klaster per artikel.
+**Gambar 1.** Panel ringkas set 294 klaim (analisis tambahan, termasuk 20 pilot) pada tiga model API. Interval kepercayaan 95 persen dari bootstrap klaster per artikel. Gambar ini bukan set pelaporan utama 274.
 
 ![Gambar 1](figures_294/H5_panel_ringkas_utama294_id.png)
 
@@ -35,11 +36,11 @@ Pilot tidak dilaporkan sebagai hasil. Pada dev, val, dan holdout, false-support 
 
 ## 4.3 Kepekaan
 
-Pada seluruh metrik tabel kepekaan, nilai titik tanpa butir berstatus KELUAR (290 klaim) berubah paling banyak 0,0073 (kesesuaian qwen4-max-preview), dan pada set yang lebih ketat (280 klaim) paling banyak 0,0185 (pergeseran dN deepseek-v4.1-flash). Proporsi Sesuai naik dari 294 ke set ketat pada ketiga model, yaitu qwen3.8-flash dari 0,5034 menjadi 0,5179, qwen4-max-preview dari 0,5306 menjadi 0,5464, dan deepseek-v4.1-flash dari 0,4896 menjadi 0,5073. Kenaikan ini hanya nilai titik karena set-set itu bersarang. Subset tervalidasi tim (36 klaim) memberi Sesuai 0,4286 sampai 0,5556 dan tidak diperlakukan sebagai hasil utama (Lampiran D, Tabel D3).
+Kepekaan dihitung pada himpunan bersarang dari set 294 (analisis tambahan), sehingga angka berikut bukan angka set 274 dan tidak punya padanan 274 pada tabel kepekaan. Himpunan itu tumpang tindih dan bukan replikasi independen. Pada seluruh metrik tabel kepekaan, nilai titik tanpa butir berstatus KELUAR (290 klaim) berubah paling banyak 0,0073 (kesesuaian qwen4-max-preview), dan pada set yang lebih ketat (280 klaim) paling banyak 0,0185 (pergeseran dN deepseek-v4.1-flash). Proporsi Sesuai naik dari set 294 ke set ketat pada ketiga model, yaitu qwen3.8-flash dari 0,5034 menjadi 0,5179, qwen4-max-preview dari 0,5306 menjadi 0,5464, dan deepseek-v4.1-flash dari 0,4896 menjadi 0,5073. Kenaikan ini hanya nilai titik karena set-set itu bersarang. Subset tervalidasi tim (36 klaim) memberi Sesuai 0,4286 sampai 0,5556 dan tidak diperlakukan sebagai hasil utama (Lampiran D, Tabel D3).
 
 ## 4.4 Pembanding jalur agen
 
-GPT-6.1 Sol (tidak terverifikasi) diuji pada 40 klaim, 39 klaim efektif karena C0230 gagal pada seluruh 7 observasinya, dan tidak masuk analisis utama. Pada subset 40 klaim, false-support near R3 (0,0156) dan far R3 (0,0080) GPT-6.1 Sol (tidak terverifikasi) lebih rendah daripada ketiga model API (Lampiran D, Tabel D4). Angka ini nilai titik tanpa interval, cakupan klaimnya berbeda, dan jalurnya belum terverifikasi, sehingga tidak dibaca sebagai perbandingan model.
+GPT-6.1 Sol (tidak terverifikasi) diuji pada 40 klaim, 39 klaim efektif karena C0230 gagal pada seluruh 7 observasinya, dan tidak masuk set pelaporan utama. Pada subset 40 klaim, false-support near R3 (0,0156) dan far R3 (0,0080) GPT-6.1 Sol (tidak terverifikasi) lebih rendah daripada ketiga model API (Lampiran D, Tabel D4). Angka ini nilai titik tanpa interval, cakupan klaimnya berbeda, dan jalurnya belum terverifikasi, sehingga tidak dibaca sebagai perbandingan model.
 
 ## 4.5 Kestabilan uji ulang
 

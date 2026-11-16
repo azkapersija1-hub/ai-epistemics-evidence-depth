@@ -49,11 +49,15 @@ Dua berkas kode dan satu berkas teks baru memuat path absolut. Kode tidak diubah
 | `figures_294/bangun_gambar294.py` | 18 | `C:\EPIS_KERJA\RENDER` (ROOT) | Keluaran gambar294 dan cache font (`mplcache`) | Juga di docstring baris 4, 6, dan 8 |
 | `figures_294/bangun_gambar294.py` | 48 | `C:\EPIS_KERJA\AI_EPISTEMICS_2026_PHASE_2_PREP\HASIL_PENGUJIAN\_utama294` (SRC) | Sumber baca (hanya dibaca) | Folder asal berada di luar repo |
 | `figures_294/bangun_gambar294.py` | 635 sampai 640 | teks `C:\EPIS_KERJA\RENDER\gambar294\` | Pesan catatan pembangunan di INDEKS294.md | Hanya teks |
-| `figures_294/INDEKS294.md` | 3 dan 5 | teks `C:\EPIS_KERJA\RENDER\gambar294\bangun_gambar294.py` | Catatan pembangunan | Teks, bukan kode. Tidak diubah |
+| `figures_294/INDEKS294.md` | 5 dan 7 | teks `C:\EPIS_KERJA\RENDER\gambar294\bangun_gambar294.py` | Catatan pembangunan | Teks, bukan kode. Tidak diubah |
 
 Catatan: `results/utama294/` tidak memuat `hash_cek.md`, `hash_sebelum.txt`, `daftar_hash_input.txt`, dan `run_log.txt`, karena berkas hash itu memuat path lokal dan nama berkas RAHASIA (lihat `EXCLUDED.md` bagian G).
 
 Ringkasan tambahan: 7 berkas kode di repo kini memuat path absolut (5 sebelumnya ditambah 2 dari `results/utama294/` dan `figures_294/`).
+
+## Catatan keterbatasan reproduksi
+
+Skrip analisis (`results/utama294/skrip_analisis_utama294.py`), pembuat gambar (`figures_294/bangun_gambar294.py`), dan pembuat video bergantung pada jalur absolut `C:\EPIS_KERJA\` dan, untuk skrip analisis, pada berkas kunci dan items yang tidak dirilis (lihat `EXCLUDED.md`). Karena itu pembaca tidak dapat mereproduksi hasil secara end-to-end dari repositori ini. Tabel dan gambar di repositori adalah keluaran yang sudah jadi dan dapat diperiksa terhadap CSV agregat, tetapi tidak dapat dihasilkan ulang tanpa berkas tersebut.
 
 ## Tambahan 15 November 2026
 - `references/katalog_sumber/skrip_bangun_katalog_sumber.py` memakai salinan katalog internal di folder sementara dan membaca berkas bahan di mesin asal; tidak dapat dijalankan ulang dari repositori ini tanpa berkas tersebut.
