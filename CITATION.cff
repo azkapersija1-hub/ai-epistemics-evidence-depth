@@ -1,18 +1,21 @@
 cff-version: 1.2.0
-message: "Jika memakai repositori ini, sitasi berkas ini. Penulis dan tanggal akan diisi setelah keputusan penulis."
+message: "If you use this repository, please cite it using the metadata in this file."
 title: "How Much Evidence Is Enough? Calibration of LLM Verdicts Across Evidence Depth on Academic Claims"
 abstract: "Repositori kode, ringkasan, dan keluaran untuk studi kalibrasi verdict LLM (SUPPORTED, REFUTED, NEI) lintas kedalaman bukti pada klaim akademik. Dibuat untuk Apart Research AI x Epistemics sprint."
 type: software
 authors:
-  - family-names: "[Penulis 1]"
-    given-names: ""
-  - family-names: "[Penulis 2]"
-    given-names: ""
-  - family-names: "[Penulis 3]"
-    given-names: ""
+  - family-names: "Rizkulloh"
+    given-names: "Mochamad Azmi"
+    affiliation: "UIN Syarif Hidayatullah Jakarta"
+  - family-names: "Nurfansyah"
+    given-names: "Ircham"
+    affiliation: "UIN Syarif Hidayatullah Jakarta"
+  - family-names: "Azwar"
+    given-names: "Rahmad Nisfi"
+    affiliation: "UIN Syarif Hidayatullah Jakarta"
 keywords:
   - LLM calibration
   - evidence depth
   - epistemics
   - claim verification
-# license: belum diputuskan, lihat LICENSE_PERLU_DIPUTUSKAN.md
+license: MIT  # code (src/); text, figures and reports are CC BY 4.0, see LICENSE-DOCS.md
