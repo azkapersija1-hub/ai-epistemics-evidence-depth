@@ -1,6 +1,6 @@
 # 8. Kode dan Data
 
-Repositori kode: [akan diisi]
+Repositori kode: https://github.com/azkapersija1-hub/ai-epistemics-evidence-depth
 
 Data yang dibagikan (repositori: `repo/`):
 
@@ -21,3 +21,4 @@ Data yang tidak dibagikan (lihat `EXCLUDED.md`):
 - Berkas penilai individual yang memuat nama dan catatan personal.
 - Kredensial, profil API, dan catatan pemakaian token.
 - Keluaran glm-5.3 yang dihentikan (D2). Keberadaan dan alasan penghentiannya dicatat di `results/glm_dihentikan/CATATAN.md`.
+- Video ringkasan untuk set pelaporan utama 274 klaim non-pilot: `video/ringkasan274_en.mp4` dan `video/ringkasan274_id.mp4` (angka dicocokkan di `video/angka_pencocokan274_*.txt`).

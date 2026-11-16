@@ -19,6 +19,8 @@ Model bahasa sering diminta menilai apakah sebuah klaim ilmiah didukung, dibanta
 
 ## Hasil utama
 
+> **Catatan pelaporan.** Set pelaporan utama adalah **UTAMA-274**: 274 klaim non-pilot, 1.918 observasi per model (`results/utama294/analisis_UTAMA274.md`). Set UTAMA-294 di bawah memuat 20 klaim pilot dan dilaporkan sebagai analisis tambahan. Amandemen 5 semula menetapkan 294 klaim sebagai analisis utama; penetapan set 274 untuk pelaporan diputuskan setelah pengumpulan data (lihat `docs/prareg/CATATAN_DEVIASI.md`).
+
 Analisis utama (UTAMA-294) memakai 294 klaim dan 2058 observasi untuk tiga model API: qwen3.8-flash, qwen4-max-preview, dan deepseek-v4.1-flash. Set ini mencakup pilot (20 klaim) sesuai Amandemen 5. Varian tanpa pilot (UTAMA-274) disediakan sebagai pembanding. Tidak ada aturan, parameter tau, atau prompt yang disetel setelah melihat hasil.
 
 Lapis subset tim dan dua set kepekaan (KEPEKAAN-A dengan 290 klaim, KEPEKAAN-B dengan 280 klaim) adalah analisis kepekaan. Keduanya tidak menggantikan analisis utama. GPT-6.1 Sol (identitas dan konfigurasi tidak terverifikasi) dan Gemini 3.8 Flash (Antigravity) hanya dijalankan lewat jalur agen pada subset dan tidak masuk analisis utama. glm-5.3 dihentikan (lihat Keterbatasan).
@@ -160,7 +162,7 @@ Draf laporan berbahasa Indonesia (Word, PDF, dan naskah Markdown) ada di `report
 
 ## Lisensi
 
-Belum diputuskan. Lihat `LICENSE_PERLU_DIPUTUSKAN.md`.
+Kode (`src/`): MIT (`LICENSE`). Teks, gambar, dan laporan: CC BY 4.0 (`LICENSE-DOCS.md`).
 
 ## Penulis
 

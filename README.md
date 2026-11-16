@@ -7,7 +7,9 @@
 
 ## Summary
 
-Language models are often asked whether a scientific claim is supported, refuted, or not enough evidence (SUPPORTED, REFUTED, NEI). This study asks whether those verdicts stay calibrated when the model reads only the start of an article (R1: abstract; R2: abstract and results) compared with the full relevant text (R3). The design was frozen before model answers were collected and uses mechanical anchor labels rather than full expert labels. The main analysis (UTAMA-294) uses all 294 claims for three API models. Layers 40, 36, 26 and 19 (team-validated subsets) and two sensitivity sets (290 and 280 claims) are sensitivity analyses, not the main analysis. Results are descriptive and not yet re-verified.
+Language models are often asked whether a scientific claim is supported, refuted, or not enough evidence (SUPPORTED, REFUTED, NEI). This study asks whether those verdicts stay calibrated when the model reads only the start of an article (R1: abstract; R2: abstract and results) compared with the full relevant text (R3). The design was frozen before model answers were collected and uses mechanical anchor labels rather than full expert labels. > **Reporting note.** The primary reporting set is **UTAMA-274**: 274 non-pilot claims, 1,918 observations per model (`results/utama294/analisis_UTAMA274.md`). The UTAMA-294 set below includes the 20 pilot claims and is reported as a supplementary analysis. Amendment 5 originally specified 294 claims as the main analysis; designating the 274-claim set for reporting was decided after data collection (see `docs/prareg/CATATAN_DEVIASI.md`).
+
+The supplementary analysis (UTAMA-294) uses all 294 claims for three API models. Layers 40, 36, 26 and 19 (team-validated subsets) and two sensitivity sets (290 and 280 claims) are sensitivity analyses, not the main analysis. Results are descriptive and not yet re-verified.
 
 ## Research questions
 
