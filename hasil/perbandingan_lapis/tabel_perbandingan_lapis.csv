@@ -1,0 +1,181 @@
+model,lapis,metrik,n,nilai,ci_lo,ci_hi,selisih_vs_lapis40
+qwen3.8-flash,40,Brier batas 1 own R3 (anchor SUPPORTED),40,0.068920,0.000481,0.178638,0 (acuan)
+qwen3.8-flash,40,Brier batas 1 near R1 (anchor NEI),40,0.057280,0.007015,0.148020,0 (acuan)
+qwen3.8-flash,40,Brier batas 1 near R3 (anchor NEI),40,0.125295,0.020155,0.263635,0 (acuan)
+qwen3.8-flash,40,Brier batas 1 far R1 (anchor NEI),40,0.048710,0.001510,0.141415,0 (acuan)
+qwen3.8-flash,40,Brier batas 1 far R3 (anchor NEI),40,0.081340,0.006050,0.192150,0 (acuan)
+qwen3.8-flash,40,"Brier batas 2 own R3 (gagal = 2,0)",40,0.068920,,,0 (acuan)
+qwen3.8-flash,40,"Brier batas 2 near R1 (gagal = 2,0)",40,0.057280,,,0 (acuan)
+qwen3.8-flash,40,"Brier batas 2 near R3 (gagal = 2,0)",40,0.125295,,,0 (acuan)
+qwen3.8-flash,40,"Brier batas 2 far R1 (gagal = 2,0)",40,0.048710,,,0 (acuan)
+qwen3.8-flash,40,"Brier batas 2 far R3 (gagal = 2,0)",40,0.081340,,,0 (acuan)
+qwen3.8-flash,40,Sesuai (label R1 = R3),40,0.475000,0.325000,0.625000,0 (acuan)
+qwen3.8-flash,40,Pergeseran dS,40,0.514050,0.385875,0.641425,0 (acuan)
+qwen3.8-flash,40,Pergeseran dN,40,0.489625,0.364800,0.615125,0 (acuan)
+qwen3.8-flash,40,"Overkomit (tau 0,7)",40,0.000000,0.000000,0.000000,0 (acuan)
+qwen3.8-flash,40,False-support near R1,40,0.072500,0.031500,0.131000,0 (acuan)
+qwen3.8-flash,40,False-support far R1,40,0.046250,0.013500,0.103250,0 (acuan)
+qwen3.8-flash,40,Selisih FS near-far R1,,0.026250,0.000500,0.058250,0 (acuan)
+qwen3.8-flash,40,False-support near R3,40,0.122750,0.062500,0.197750,0 (acuan)
+qwen3.8-flash,40,False-support far R3,40,0.076000,0.025750,0.142000,0 (acuan)
+qwen3.8-flash,40,Selisih FS near-far R3,,0.046750,-0.034000,0.127250,0 (acuan)
+qwen3.8-flash,26,Brier batas 1 own R3 (anchor SUPPORTED),26,0.039792,0.000275,0.118361,-0.029128
+qwen3.8-flash,26,Brier batas 1 near R1 (anchor NEI),26,0.079215,0.004654,0.206208,0.021935
+qwen3.8-flash,26,Brier batas 1 near R3 (anchor NEI),26,0.177638,0.013008,0.371438,0.052343
+qwen3.8-flash,26,Brier batas 1 far R1 (anchor NEI),26,0.073308,0.001015,0.213138,0.024598
+qwen3.8-flash,26,Brier batas 1 far R3 (anchor NEI),26,0.121262,0.003962,0.291369,0.039922
+qwen3.8-flash,26,"Brier batas 2 own R3 (gagal = 2,0)",26,0.039792,,,-0.029128
+qwen3.8-flash,26,"Brier batas 2 near R1 (gagal = 2,0)",26,0.079215,,,0.021935
+qwen3.8-flash,26,"Brier batas 2 near R3 (gagal = 2,0)",26,0.177638,,,0.052343
+qwen3.8-flash,26,"Brier batas 2 far R1 (gagal = 2,0)",26,0.073308,,,0.024598
+qwen3.8-flash,26,"Brier batas 2 far R3 (gagal = 2,0)",26,0.121262,,,0.039922
+qwen3.8-flash,26,Sesuai (label R1 = R3),26,0.615385,0.423077,0.807692,0.140385
+qwen3.8-flash,26,Pergeseran dS,26,0.396231,0.248692,0.549731,-0.117819
+qwen3.8-flash,26,Pergeseran dN,26,0.372115,0.229115,0.521923,-0.117510
+qwen3.8-flash,26,"Overkomit (tau 0,7)",26,0.000000,0.000000,0.000000,0.000000
+qwen3.8-flash,26,False-support near R1,26,0.083846,0.026538,0.162692,0.011346
+qwen3.8-flash,26,False-support far R1,26,0.058846,0.010385,0.136923,0.012596
+qwen3.8-flash,26,Selisih FS near-far R1,,0.025000,-0.010385,0.067692,-0.001250
+qwen3.8-flash,26,False-support near R3,26,0.146538,0.054615,0.257692,0.023788
+qwen3.8-flash,26,False-support far R3,26,0.095385,0.018077,0.195385,0.019385
+qwen3.8-flash,26,Selisih FS near-far R3,,0.051154,-0.061538,0.171923,0.004404
+qwen3.8-flash,19,Brier batas 1 own R3 (anchor SUPPORTED),19,0.054023,0.000067,0.160213,-0.014896
+qwen3.8-flash,19,Brier batas 1 near R1 (anchor NEI),19,0.107516,0.006716,0.282284,0.050236
+qwen3.8-flash,19,Brier batas 1 near R3 (anchor NEI),19,0.241505,0.016263,0.525926,0.116210
+qwen3.8-flash,19,Brier batas 1 far R1 (anchor NEI),19,0.099137,0.000295,0.290284,0.050427
+qwen3.8-flash,19,Brier batas 1 far R3 (anchor NEI),19,0.165295,0.008453,0.401116,0.083955
+qwen3.8-flash,19,"Brier batas 2 own R3 (gagal = 2,0)",19,0.054023,,,-0.014896
+qwen3.8-flash,19,"Brier batas 2 near R1 (gagal = 2,0)",19,0.107516,,,0.050236
+qwen3.8-flash,19,"Brier batas 2 near R3 (gagal = 2,0)",19,0.241505,,,0.116210
+qwen3.8-flash,19,"Brier batas 2 far R1 (gagal = 2,0)",19,0.099137,,,0.050427
+qwen3.8-flash,19,"Brier batas 2 far R3 (gagal = 2,0)",19,0.165295,,,0.083955
+qwen3.8-flash,19,Sesuai (label R1 = R3),19,0.684211,0.473684,0.894737,0.209211
+qwen3.8-flash,19,Pergeseran dS,19,0.340632,0.168842,0.516474,-0.173418
+qwen3.8-flash,19,Pergeseran dN,19,0.319474,0.154158,0.492316,-0.170151
+qwen3.8-flash,19,"Overkomit (tau 0,7)",19,0.000000,0.000000,0.000000,0.000000
+qwen3.8-flash,19,False-support near R1,19,0.109474,0.033158,0.214737,0.036974
+qwen3.8-flash,19,False-support far R1,19,0.069474,0.005263,0.178947,0.023224
+qwen3.8-flash,19,Selisih FS near-far R1,,0.040000,-0.003684,0.091579,0.013750
+qwen3.8-flash,19,False-support near R3,19,0.190000,0.071579,0.341053,0.067250
+qwen3.8-flash,19,False-support far R3,19,0.122105,0.019474,0.257895,0.046105
+qwen3.8-flash,19,Selisih FS near-far R3,,0.067895,-0.089474,0.244211,0.021145
+qwen4-max-preview,40,Brier batas 1 own R3 (anchor SUPPORTED),40,0.008586,0.003456,0.015098,0 (acuan)
+qwen4-max-preview,40,Brier batas 1 near R1 (anchor NEI),40,0.063395,0.016580,0.147760,0 (acuan)
+qwen4-max-preview,40,Brier batas 1 near R3 (anchor NEI),40,0.159310,0.072080,0.274265,0 (acuan)
+qwen4-max-preview,40,Brier batas 1 far R1 (anchor NEI),40,0.070065,0.013460,0.142270,0 (acuan)
+qwen4-max-preview,40,Brier batas 1 far R3 (anchor NEI),40,0.240080,0.101695,0.408390,0 (acuan)
+qwen4-max-preview,40,"Brier batas 2 own R3 (gagal = 2,0)",40,0.008586,,,0 (acuan)
+qwen4-max-preview,40,"Brier batas 2 near R1 (gagal = 2,0)",40,0.063395,,,0 (acuan)
+qwen4-max-preview,40,"Brier batas 2 near R3 (gagal = 2,0)",40,0.159310,,,0 (acuan)
+qwen4-max-preview,40,"Brier batas 2 far R1 (gagal = 2,0)",40,0.070065,,,0 (acuan)
+qwen4-max-preview,40,"Brier batas 2 far R3 (gagal = 2,0)",40,0.240080,,,0 (acuan)
+qwen4-max-preview,40,Sesuai (label R1 = R3),40,0.500000,0.350000,0.650000,0 (acuan)
+qwen4-max-preview,40,Pergeseran dS,40,0.458125,0.339500,0.578875,0 (acuan)
+qwen4-max-preview,40,Pergeseran dN,40,0.419450,0.308625,0.535375,0 (acuan)
+qwen4-max-preview,40,"Overkomit (tau 0,7)",40,0.000000,0.000000,0.000000,0 (acuan)
+qwen4-max-preview,40,False-support near R1,40,0.116250,0.079750,0.166750,0 (acuan)
+qwen4-max-preview,40,False-support far R1,40,0.104000,0.059000,0.159250,0 (acuan)
+qwen4-max-preview,40,Selisih FS near-far R1,,0.012250,-0.023250,0.043500,0 (acuan)
+qwen4-max-preview,40,False-support near R3,40,0.202750,0.144750,0.271500,0 (acuan)
+qwen4-max-preview,40,False-support far R3,40,0.209500,0.127750,0.303250,0 (acuan)
+qwen4-max-preview,40,Selisih FS near-far R3,,-0.006750,-0.070500,0.051750,0 (acuan)
+qwen4-max-preview,26,Brier batas 1 own R3 (anchor SUPPORTED),26,0.007438,0.002756,0.014552,-0.001148
+qwen4-max-preview,26,Brier batas 1 near R1 (anchor NEI),26,0.085862,0.014838,0.207138,0.022467
+qwen4-max-preview,26,Brier batas 1 near R3 (anchor NEI),26,0.187669,0.064108,0.357215,0.028359
+qwen4-max-preview,26,Brier batas 1 far R1 (anchor NEI),26,0.079354,0.006977,0.181769,0.009289
+qwen4-max-preview,26,Brier batas 1 far R3 (anchor NEI),26,0.277415,0.080846,0.512362,0.037335
+qwen4-max-preview,26,"Brier batas 2 own R3 (gagal = 2,0)",26,0.007438,,,-0.001148
+qwen4-max-preview,26,"Brier batas 2 near R1 (gagal = 2,0)",26,0.085862,,,0.022467
+qwen4-max-preview,26,"Brier batas 2 near R3 (gagal = 2,0)",26,0.187669,,,0.028359
+qwen4-max-preview,26,"Brier batas 2 far R1 (gagal = 2,0)",26,0.079354,,,0.009289
+qwen4-max-preview,26,"Brier batas 2 far R3 (gagal = 2,0)",26,0.277415,,,0.037335
+qwen4-max-preview,26,Sesuai (label R1 = R3),26,0.653846,0.461538,0.807692,0.153846
+qwen4-max-preview,26,Pergeseran dS,26,0.313269,0.179808,0.461346,-0.144856
+qwen4-max-preview,26,Pergeseran dN,26,0.276269,0.160385,0.407115,-0.143181
+qwen4-max-preview,26,"Overkomit (tau 0,7)",26,0.000000,0.000000,0.000000,0.000000
+qwen4-max-preview,26,False-support near R1,26,0.125769,0.072692,0.198462,0.009519
+qwen4-max-preview,26,False-support far R1,26,0.106923,0.048462,0.183077,0.002923
+qwen4-max-preview,26,Selisih FS near-far R1,,0.018846,-0.026923,0.058462,0.006596
+qwen4-max-preview,26,False-support near R3,26,0.212692,0.131538,0.311154,0.009942
+qwen4-max-preview,26,False-support far R3,26,0.211154,0.102308,0.345000,0.001654
+qwen4-max-preview,26,Selisih FS near-far R3,,0.001538,-0.090385,0.084615,0.008288
+qwen4-max-preview,19,Brier batas 1 own R3 (anchor SUPPORTED),19,0.008417,0.001629,0.017775,-0.000168
+qwen4-max-preview,19,Brier batas 1 near R1 (anchor NEI),19,0.113895,0.018284,0.279000,0.050500
+qwen4-max-preview,19,Brier batas 1 near R3 (anchor NEI),19,0.243632,0.081674,0.463084,0.084322
+qwen4-max-preview,19,Brier batas 1 far R1 (anchor NEI),19,0.107284,0.008347,0.233979,0.037219
+qwen4-max-preview,19,Brier batas 1 far R3 (anchor NEI),19,0.306495,0.071463,0.579863,0.066415
+qwen4-max-preview,19,"Brier batas 2 own R3 (gagal = 2,0)",19,0.008417,,,-0.000168
+qwen4-max-preview,19,"Brier batas 2 near R1 (gagal = 2,0)",19,0.113895,,,0.050500
+qwen4-max-preview,19,"Brier batas 2 near R3 (gagal = 2,0)",19,0.243632,,,0.084322
+qwen4-max-preview,19,"Brier batas 2 far R1 (gagal = 2,0)",19,0.107284,,,0.037219
+qwen4-max-preview,19,"Brier batas 2 far R3 (gagal = 2,0)",19,0.306495,,,0.066415
+qwen4-max-preview,19,Sesuai (label R1 = R3),19,0.736842,0.526316,0.947368,0.236842
+qwen4-max-preview,19,Pergeseran dS,19,0.244474,0.092105,0.401579,-0.213651
+qwen4-max-preview,19,Pergeseran dN,19,0.198842,0.072684,0.339211,-0.220608
+qwen4-max-preview,19,"Overkomit (tau 0,7)",19,0.000000,0.000000,0.000000,0.000000
+qwen4-max-preview,19,False-support near R1,19,0.148947,0.078947,0.243684,0.032697
+qwen4-max-preview,19,False-support far R1,19,0.131579,0.052632,0.227368,0.027579
+qwen4-max-preview,19,Selisih FS near-far R1,,0.017368,-0.045789,0.071579,0.005118
+qwen4-max-preview,19,False-support near R3,19,0.251053,0.153158,0.370000,0.048303
+qwen4-max-preview,19,False-support far R3,19,0.234211,0.101579,0.384211,0.024711
+qwen4-max-preview,19,Selisih FS near-far R3,,0.016842,-0.088421,0.113684,0.023592
+deepseek-v4.1-flash,40,Brier batas 1 own R3 (anchor SUPPORTED),39,0.110971,0.006994,0.235587,0 (acuan)
+deepseek-v4.1-flash,40,Brier batas 1 near R1 (anchor NEI),40,0.003380,0.001250,0.007320,0 (acuan)
+deepseek-v4.1-flash,40,Brier batas 1 near R3 (anchor NEI),40,0.006915,0.002405,0.013960,0 (acuan)
+deepseek-v4.1-flash,40,Brier batas 1 far R1 (anchor NEI),40,0.089554,0.000420,0.219139,0 (acuan)
+deepseek-v4.1-flash,40,Brier batas 1 far R3 (anchor NEI),40,0.080869,0.000609,0.204799,0 (acuan)
+deepseek-v4.1-flash,40,"Brier batas 2 own R3 (gagal = 2,0)",40,0.158196,,,0 (acuan)
+deepseek-v4.1-flash,40,"Brier batas 2 near R1 (gagal = 2,0)",40,0.003380,,,0 (acuan)
+deepseek-v4.1-flash,40,"Brier batas 2 near R3 (gagal = 2,0)",40,0.006915,,,0 (acuan)
+deepseek-v4.1-flash,40,"Brier batas 2 far R1 (gagal = 2,0)",40,0.089554,,,0 (acuan)
+deepseek-v4.1-flash,40,"Brier batas 2 far R3 (gagal = 2,0)",40,0.080869,,,0 (acuan)
+deepseek-v4.1-flash,40,Sesuai (label R1 = R3),39,0.384615,0.230769,0.538462,0 (acuan)
+deepseek-v4.1-flash,40,Pergeseran dS,39,0.494359,0.340513,0.630000,0 (acuan)
+deepseek-v4.1-flash,40,Pergeseran dN,39,0.485513,0.332436,0.618718,0 (acuan)
+deepseek-v4.1-flash,40,"Overkomit (tau 0,7)",39,0.025641,0.000000,0.076923,0 (acuan)
+deepseek-v4.1-flash,40,False-support near R1,40,0.029000,0.019750,0.041750,0 (acuan)
+deepseek-v4.1-flash,40,False-support far R1,40,0.058250,0.009500,0.128250,0 (acuan)
+deepseek-v4.1-flash,40,Selisih FS near-far R1,,-0.029250,-0.097750,0.021500,0 (acuan)
+deepseek-v4.1-flash,40,False-support near R3,40,0.037250,0.022500,0.055500,0 (acuan)
+deepseek-v4.1-flash,40,False-support far R3,40,0.056000,0.008750,0.123500,0 (acuan)
+deepseek-v4.1-flash,40,Selisih FS near-far R3,,-0.018750,-0.084000,0.030750,0 (acuan)
+deepseek-v4.1-flash,26,Brier batas 1 own R3 (anchor SUPPORTED),25,0.109118,0.005352,0.272424,-0.001853
+deepseek-v4.1-flash,26,Brier batas 1 near R1 (anchor NEI),26,0.004092,0.000892,0.009515,0.000712
+deepseek-v4.1-flash,26,Brier batas 1 near R3 (anchor NEI),26,0.009608,0.002585,0.018923,0.002693
+deepseek-v4.1-flash,26,Brier batas 1 far R1 (anchor NEI),26,0.075277,0.000331,0.224723,-0.014277
+deepseek-v4.1-flash,26,Brier batas 1 far R3 (anchor NEI),26,0.056060,0.000321,0.166388,-0.024809
+deepseek-v4.1-flash,26,"Brier batas 2 own R3 (gagal = 2,0)",26,0.181844,,,0.023648
+deepseek-v4.1-flash,26,"Brier batas 2 near R1 (gagal = 2,0)",26,0.004092,,,0.000712
+deepseek-v4.1-flash,26,"Brier batas 2 near R3 (gagal = 2,0)",26,0.009608,,,0.002693
+deepseek-v4.1-flash,26,"Brier batas 2 far R1 (gagal = 2,0)",26,0.075277,,,-0.014277
+deepseek-v4.1-flash,26,"Brier batas 2 far R3 (gagal = 2,0)",26,0.056060,,,-0.024809
+deepseek-v4.1-flash,26,Sesuai (label R1 = R3),25,0.520000,0.320000,0.720000,0.135385
+deepseek-v4.1-flash,26,Pergeseran dS,25,0.332800,0.161200,0.506000,-0.161559
+deepseek-v4.1-flash,26,Pergeseran dN,25,0.325000,0.158600,0.497400,-0.160513
+deepseek-v4.1-flash,26,"Overkomit (tau 0,7)",25,0.040000,0.000000,0.120000,0.014359
+deepseek-v4.1-flash,26,False-support near R1,26,0.028077,0.014615,0.045769,-0.000923
+deepseek-v4.1-flash,26,False-support far R1,26,0.050000,0.007692,0.127692,-0.008250
+deepseek-v4.1-flash,26,Selisih FS near-far R1,,-0.021923,-0.103077,0.028462,0.007327
+deepseek-v4.1-flash,26,False-support near R3,26,0.046538,0.024615,0.071538,0.009288
+deepseek-v4.1-flash,26,False-support far R3,26,0.043462,0.004615,0.111923,-0.012538
+deepseek-v4.1-flash,26,Selisih FS near-far R3,,0.003077,-0.067692,0.052308,0.021827
+deepseek-v4.1-flash,19,Brier batas 1 own R3 (anchor SUPPORTED),18,0.147664,0.004022,0.367108,0.036693
+deepseek-v4.1-flash,19,Brier batas 1 near R1 (anchor NEI),19,0.005305,0.000905,0.012516,0.001925
+deepseek-v4.1-flash,19,Brier batas 1 near R3 (anchor NEI),19,0.012853,0.003832,0.025189,0.005938
+deepseek-v4.1-flash,19,Brier batas 1 far R1 (anchor NEI),19,0.102684,0.000158,0.307126,0.013130
+deepseek-v4.1-flash,19,Brier batas 1 far R3 (anchor NEI),19,0.075629,0.000047,0.226126,-0.005240
+deepseek-v4.1-flash,19,"Brier batas 2 own R3 (gagal = 2,0)",19,0.245155,,,0.086959
+deepseek-v4.1-flash,19,"Brier batas 2 near R1 (gagal = 2,0)",19,0.005305,,,0.001925
+deepseek-v4.1-flash,19,"Brier batas 2 near R3 (gagal = 2,0)",19,0.012853,,,0.005938
+deepseek-v4.1-flash,19,"Brier batas 2 far R1 (gagal = 2,0)",19,0.102684,,,0.013130
+deepseek-v4.1-flash,19,"Brier batas 2 far R3 (gagal = 2,0)",19,0.075629,,,-0.005240
+deepseek-v4.1-flash,19,Sesuai (label R1 = R3),18,0.611111,0.388889,0.833333,0.226496
+deepseek-v4.1-flash,19,Pergeseran dS,18,0.241667,0.036667,0.445556,-0.252692
+deepseek-v4.1-flash,19,Pergeseran dN,18,0.235556,0.030278,0.436944,-0.249957
+deepseek-v4.1-flash,19,"Overkomit (tau 0,7)",18,0.055556,0.000000,0.166667,0.029915
+deepseek-v4.1-flash,19,False-support near R1,19,0.032632,0.014737,0.054737,0.003632
+deepseek-v4.1-flash,19,False-support far R1,19,0.061579,0.004737,0.167895,0.003329
+deepseek-v4.1-flash,19,Selisih FS near-far R1,,-0.028947,-0.142105,0.040526,0.000303
+deepseek-v4.1-flash,19,False-support near R3,19,0.057895,0.030526,0.090526,0.020645
+deepseek-v4.1-flash,19,False-support far R3,19,0.051579,0.002105,0.142632,-0.004421
+deepseek-v4.1-flash,19,Selisih FS near-far R3,,0.006316,-0.091579,0.074737,0.025066

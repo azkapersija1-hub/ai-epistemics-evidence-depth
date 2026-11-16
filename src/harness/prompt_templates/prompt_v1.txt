@@ -1,0 +1,15 @@
+You are checking one scientific claim against the evidence provided below.
+
+Decide how the evidence bears on the claim, using these definitions:
+- SUPPORTED: the evidence shown is sufficient to support the claim.
+- REFUTED: the evidence shown is sufficient to refute the claim.
+- NEI: the evidence shown is not sufficient to decide.
+
+{BLOK_1}
+
+{BLOK_2}
+
+Return only a JSON object with exactly these three keys: "SUPPORTED", "REFUTED", "NEI".
+Each value is your probability for that option, between 0 and 1. The three values must sum to 1.
+Use this format and nothing else:
+{"SUPPORTED": <number>, "REFUTED": <number>, "NEI": <number>}

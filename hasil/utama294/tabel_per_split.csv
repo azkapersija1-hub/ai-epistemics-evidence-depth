@@ -1,0 +1,241 @@
+model,set,split,n_klaim,n_obs,metrik,n,nilai,ci_lo,ci_hi
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 own R3 (anchor SUPPORTED),20,0.002308,0.000478,0.005200
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 near R1 (anchor NEI),20,0.081620,0.014250,0.194560
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 near R3 (anchor NEI),20,0.180160,0.026820,0.399320
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 far R1 (anchor NEI),20,0.003710,0.000380,0.008600
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 far R3 (anchor NEI),20,0.001450,0.000060,0.003520
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 own R3 (gagal = 2,0)",20,0.002308,,
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 near R1 (gagal = 2,0)",20,0.081620,,
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 near R3 (gagal = 2,0)",20,0.180160,,
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 far R1 (gagal = 2,0)",20,0.003710,,
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 far R3 (gagal = 2,0)",20,0.001450,,
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Sesuai (label R1 = label R3),20,0.350000,0.150000,0.550000
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Pergeseran dS,20,0.622500,0.444000,0.789000
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Pergeseran dN,20,0.570250,0.402750,0.731000
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,"Overkomit (tau 0,7)",20,0.000000,0.000000,0.000000
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,False-support near R1,20,0.110000,0.042000,0.201000
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,False-support far R1,20,0.021000,0.005000,0.042000
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Selisih FS near-far R1,20,0.089000,0.024000,0.177000
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,False-support near R3,20,0.177500,0.079500,0.300500
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,False-support far R3,20,0.012000,0.002000,0.025500
+qwen3.8-flash,SPLIT-pilot,pilot,20,140,Selisih FS near-far R3,20,0.165500,0.068000,0.288500
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Brier batas 1 own R3 (anchor SUPPORTED),20,0.004743,0.001798,0.008817
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Brier batas 1 near R1 (anchor NEI),20,0.229250,0.070280,0.454920
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Brier batas 1 near R3 (anchor NEI),20,0.397310,0.165730,0.681980
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Brier batas 1 far R1 (anchor NEI),20,0.007370,0.003080,0.012600
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Brier batas 1 far R3 (anchor NEI),20,0.081410,0.030300,0.136870
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,"Brier batas 2 own R3 (gagal = 2,0)",20,0.004743,,
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,"Brier batas 2 near R1 (gagal = 2,0)",20,0.229250,,
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,"Brier batas 2 near R3 (gagal = 2,0)",20,0.397310,,
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,"Brier batas 2 far R1 (gagal = 2,0)",20,0.007370,,
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,"Brier batas 2 far R3 (gagal = 2,0)",20,0.081410,,
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Sesuai (label R1 = label R3),20,0.250000,0.100000,0.450000
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Pergeseran dS,20,0.609000,0.442000,0.758500
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Pergeseran dN,20,0.548750,0.381750,0.700500
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,"Overkomit (tau 0,7)",20,0.000000,0.000000,0.000000
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,False-support near R1,20,0.242500,0.145000,0.364500
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,False-support far R1,20,0.055500,0.040000,0.073000
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Selisih FS near-far R1,20,0.187000,0.092500,0.309500
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,False-support near R3,20,0.331500,0.206500,0.480000
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,False-support far R3,20,0.150500,0.088000,0.216500
+qwen4-max-preview,SPLIT-pilot,pilot,20,140,Selisih FS near-far R3,20,0.181000,0.068500,0.311500
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 own R3 (anchor SUPPORTED),20,0.009225,0.002460,0.018150
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 near R1 (anchor NEI),20,0.016540,0.003060,0.035630
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 near R3 (anchor NEI),20,0.248000,0.021270,0.532570
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 far R1 (anchor NEI),20,0.001980,0.000240,0.004500
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Brier batas 1 far R3 (anchor NEI),20,0.000638,0.000105,0.001338
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 own R3 (gagal = 2,0)",20,0.009225,,
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 near R1 (gagal = 2,0)",20,0.016540,,
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 near R3 (gagal = 2,0)",20,0.248000,,
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 far R1 (gagal = 2,0)",20,0.001980,,
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,"Brier batas 2 far R3 (gagal = 2,0)",20,0.000638,,
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Sesuai (label R1 = label R3),20,0.350000,0.150000,0.550000
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Pergeseran dS,20,0.589000,0.403000,0.765000
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Pergeseran dN,20,0.536750,0.351500,0.708750
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,"Overkomit (tau 0,7)",20,0.050000,0.000000,0.150000
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,False-support near R1,20,0.057000,0.026000,0.093000
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,False-support far R1,20,0.018000,0.007000,0.033000
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Selisih FS near-far R1,20,0.039000,0.011500,0.069500
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,False-support near R3,20,0.171000,0.050000,0.322500
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,False-support far R3,20,0.010000,0.003500,0.018500
+deepseek-v4.1-flash,SPLIT-pilot,pilot,20,140,Selisih FS near-far R3,20,0.161000,0.043500,0.309500
+qwen3.8-flash,SPLIT-dev,dev,78,546,Brier batas 1 own R3 (anchor SUPPORTED),78,0.036614,0.001319,0.092746
+qwen3.8-flash,SPLIT-dev,dev,78,546,Brier batas 1 near R1 (anchor NEI),78,0.029900,0.006321,0.085810
+qwen3.8-flash,SPLIT-dev,dev,78,546,Brier batas 1 near R3 (anchor NEI),78,0.121105,0.036669,0.226028
+qwen3.8-flash,SPLIT-dev,dev,78,546,Brier batas 1 far R1 (anchor NEI),78,0.026490,0.002015,0.093369
+qwen3.8-flash,SPLIT-dev,dev,78,546,Brier batas 1 far R3 (anchor NEI),78,0.044915,0.005926,0.102564
+qwen3.8-flash,SPLIT-dev,dev,78,546,"Brier batas 2 own R3 (gagal = 2,0)",78,0.036614,,
+qwen3.8-flash,SPLIT-dev,dev,78,546,"Brier batas 2 near R1 (gagal = 2,0)",78,0.029900,,
+qwen3.8-flash,SPLIT-dev,dev,78,546,"Brier batas 2 near R3 (gagal = 2,0)",78,0.121105,,
+qwen3.8-flash,SPLIT-dev,dev,78,546,"Brier batas 2 far R1 (gagal = 2,0)",78,0.026490,,
+qwen3.8-flash,SPLIT-dev,dev,78,546,"Brier batas 2 far R3 (gagal = 2,0)",78,0.044915,,
+qwen3.8-flash,SPLIT-dev,dev,78,546,Sesuai (label R1 = label R3),78,0.525641,0.423077,0.641026
+qwen3.8-flash,SPLIT-dev,dev,78,546,Pergeseran dS,78,0.456936,0.360679,0.548821
+qwen3.8-flash,SPLIT-dev,dev,78,546,Pergeseran dN,78,0.436083,0.340801,0.526686
+qwen3.8-flash,SPLIT-dev,dev,78,546,"Overkomit (tau 0,7)",78,0.000000,0.000000,0.000000
+qwen3.8-flash,SPLIT-dev,dev,78,546,False-support near R1,78,0.054359,0.033462,0.084872
+qwen3.8-flash,SPLIT-dev,dev,78,546,False-support far R1,78,0.035513,0.016795,0.066282
+qwen3.8-flash,SPLIT-dev,dev,78,546,Selisih FS near-far R1,78,0.018846,0.005641,0.033462
+qwen3.8-flash,SPLIT-dev,dev,78,546,False-support near R3,78,0.108205,0.061667,0.164615
+qwen3.8-flash,SPLIT-dev,dev,78,546,False-support far R3,78,0.051795,0.024744,0.088462
+qwen3.8-flash,SPLIT-dev,dev,78,546,Selisih FS near-far R3,78,0.056410,0.006026,0.113205
+qwen4-max-preview,SPLIT-dev,dev,78,546,Brier batas 1 own R3 (anchor SUPPORTED),78,0.006239,0.003573,0.009829
+qwen4-max-preview,SPLIT-dev,dev,78,546,Brier batas 1 near R1 (anchor NEI),78,0.066938,0.025103,0.124869
+qwen4-max-preview,SPLIT-dev,dev,78,546,Brier batas 1 near R3 (anchor NEI),78,0.206431,0.118346,0.307703
+qwen4-max-preview,SPLIT-dev,dev,78,546,Brier batas 1 far R1 (anchor NEI),78,0.060363,0.021221,0.113092
+qwen4-max-preview,SPLIT-dev,dev,78,546,Brier batas 1 far R3 (anchor NEI),78,0.172882,0.082079,0.278179
+qwen4-max-preview,SPLIT-dev,dev,78,546,"Brier batas 2 own R3 (gagal = 2,0)",78,0.006239,,
+qwen4-max-preview,SPLIT-dev,dev,78,546,"Brier batas 2 near R1 (gagal = 2,0)",78,0.066938,,
+qwen4-max-preview,SPLIT-dev,dev,78,546,"Brier batas 2 near R3 (gagal = 2,0)",78,0.206431,,
+qwen4-max-preview,SPLIT-dev,dev,78,546,"Brier batas 2 far R1 (gagal = 2,0)",78,0.060363,,
+qwen4-max-preview,SPLIT-dev,dev,78,546,"Brier batas 2 far R3 (gagal = 2,0)",78,0.172882,,
+qwen4-max-preview,SPLIT-dev,dev,78,546,Sesuai (label R1 = label R3),78,0.576923,0.461538,0.692308
+qwen4-max-preview,SPLIT-dev,dev,78,546,Pergeseran dS,78,0.400000,0.312051,0.484551
+qwen4-max-preview,SPLIT-dev,dev,78,546,Pergeseran dN,78,0.371064,0.286962,0.453474
+qwen4-max-preview,SPLIT-dev,dev,78,546,"Overkomit (tau 0,7)",78,0.012821,0.000000,0.038462
+qwen4-max-preview,SPLIT-dev,dev,78,546,False-support near R1,78,0.116923,0.087564,0.153590
+qwen4-max-preview,SPLIT-dev,dev,78,546,False-support far R1,78,0.092436,0.062564,0.127564
+qwen4-max-preview,SPLIT-dev,dev,78,546,Selisih FS near-far R1,78,0.024487,-0.000769,0.050256
+qwen4-max-preview,SPLIT-dev,dev,78,546,False-support near R3,78,0.216410,0.162308,0.273333
+qwen4-max-preview,SPLIT-dev,dev,78,546,False-support far R3,78,0.163718,0.110641,0.220513
+qwen4-max-preview,SPLIT-dev,dev,78,546,Selisih FS near-far R3,78,0.052692,0.009103,0.093462
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Brier batas 1 own R3 (anchor SUPPORTED),76,0.079099,0.018668,0.162903
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Brier batas 1 near R1 (anchor NEI),78,0.002551,0.001476,0.003897
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Brier batas 1 near R3 (anchor NEI),78,0.030482,0.003190,0.082618
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Brier batas 1 far R1 (anchor NEI),78,0.046619,0.000685,0.120979
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Brier batas 1 far R3 (anchor NEI),78,0.064276,0.001586,0.136649
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,"Brier batas 2 own R3 (gagal = 2,0)",78,0.128353,,
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,"Brier batas 2 near R1 (gagal = 2,0)",78,0.002551,,
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,"Brier batas 2 near R3 (gagal = 2,0)",78,0.030482,,
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,"Brier batas 2 far R1 (gagal = 2,0)",78,0.046619,,
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,"Brier batas 2 far R3 (gagal = 2,0)",78,0.064276,,
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Sesuai (label R1 = label R3),76,0.486842,0.368421,0.605263
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Pergeseran dS,76,0.429737,0.326184,0.532105
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Pergeseran dN,76,0.419342,0.317697,0.521513
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,"Overkomit (tau 0,7)",76,0.013158,0.000000,0.039474
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,False-support near R1,78,0.025641,0.019103,0.032821
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,False-support far R1,78,0.037051,0.010513,0.075128
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Selisih FS near-far R1,78,-0.011410,-0.049744,0.015128
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,False-support near R3,78,0.046026,0.025769,0.075897
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,False-support far R3,78,0.047436,0.013205,0.087564
+deepseek-v4.1-flash,SPLIT-dev,dev,78,546,Selisih FS near-far R3,78,-0.001410,-0.036154,0.023462
+qwen3.8-flash,SPLIT-val,val,98,686,Brier batas 1 own R3 (anchor SUPPORTED),98,0.052029,0.004381,0.113433
+qwen3.8-flash,SPLIT-val,val,98,686,Brier batas 1 near R1 (anchor NEI),98,0.066787,0.011461,0.140302
+qwen3.8-flash,SPLIT-val,val,98,686,Brier batas 1 near R3 (anchor NEI),98,0.152307,0.069629,0.252829
+qwen3.8-flash,SPLIT-val,val,98,686,Brier batas 1 far R1 (anchor NEI),98,0.019439,0.002396,0.052192
+qwen3.8-flash,SPLIT-val,val,98,686,Brier batas 1 far R3 (anchor NEI),97,0.069612,0.013318,0.144534
+qwen3.8-flash,SPLIT-val,val,98,686,"Brier batas 2 own R3 (gagal = 2,0)",98,0.052029,,
+qwen3.8-flash,SPLIT-val,val,98,686,"Brier batas 2 near R1 (gagal = 2,0)",98,0.066787,,
+qwen3.8-flash,SPLIT-val,val,98,686,"Brier batas 2 near R3 (gagal = 2,0)",98,0.152307,,
+qwen3.8-flash,SPLIT-val,val,98,686,"Brier batas 2 far R1 (gagal = 2,0)",98,0.019439,,
+qwen3.8-flash,SPLIT-val,val,98,686,"Brier batas 2 far R3 (gagal = 2,0)",98,0.089310,,
+qwen3.8-flash,SPLIT-val,val,98,686,Sesuai (label R1 = label R3),98,0.530612,0.438776,0.632653
+qwen3.8-flash,SPLIT-val,val,98,686,Pergeseran dS,98,0.465969,0.384745,0.548214
+qwen3.8-flash,SPLIT-val,val,98,686,Pergeseran dN,98,0.438224,0.359388,0.518520
+qwen3.8-flash,SPLIT-val,val,98,686,"Overkomit (tau 0,7)",98,0.010204,0.000000,0.030612
+qwen3.8-flash,SPLIT-val,val,98,686,False-support near R1,98,0.070816,0.041327,0.107245
+qwen3.8-flash,SPLIT-val,val,98,686,False-support far R1,98,0.032653,0.017551,0.056020
+qwen3.8-flash,SPLIT-val,val,98,686,Selisih FS near-far R1,98,0.038163,0.002245,0.079082
+qwen3.8-flash,SPLIT-val,val,98,686,False-support near R3,98,0.122857,0.076939,0.177959
+qwen3.8-flash,SPLIT-val,val,98,686,False-support far R3,97,0.053608,0.020309,0.094227
+qwen3.8-flash,SPLIT-val,val,98,686,Selisih FS near-far R3,98,0.069249,0.023776,0.119184
+qwen4-max-preview,SPLIT-val,val,98,686,Brier batas 1 own R3 (anchor SUPPORTED),98,0.039441,0.009722,0.081302
+qwen4-max-preview,SPLIT-val,val,98,686,Brier batas 1 near R1 (anchor NEI),98,0.140128,0.071858,0.219935
+qwen4-max-preview,SPLIT-val,val,98,686,Brier batas 1 near R3 (anchor NEI),98,0.207463,0.120541,0.312735
+qwen4-max-preview,SPLIT-val,val,98,686,Brier batas 1 far R1 (anchor NEI),98,0.033429,0.009203,0.069252
+qwen4-max-preview,SPLIT-val,val,98,686,Brier batas 1 far R3 (anchor NEI),98,0.131261,0.065778,0.212288
+qwen4-max-preview,SPLIT-val,val,98,686,"Brier batas 2 own R3 (gagal = 2,0)",98,0.039441,,
+qwen4-max-preview,SPLIT-val,val,98,686,"Brier batas 2 near R1 (gagal = 2,0)",98,0.140128,,
+qwen4-max-preview,SPLIT-val,val,98,686,"Brier batas 2 near R3 (gagal = 2,0)",98,0.207463,,
+qwen4-max-preview,SPLIT-val,val,98,686,"Brier batas 2 far R1 (gagal = 2,0)",98,0.033429,,
+qwen4-max-preview,SPLIT-val,val,98,686,"Brier batas 2 far R3 (gagal = 2,0)",98,0.131261,,
+qwen4-max-preview,SPLIT-val,val,98,686,Sesuai (label R1 = label R3),98,0.520408,0.418367,0.622449
+qwen4-max-preview,SPLIT-val,val,98,686,Pergeseran dS,98,0.436173,0.363418,0.508878
+qwen4-max-preview,SPLIT-val,val,98,686,Pergeseran dN,98,0.408480,0.340776,0.477684
+qwen4-max-preview,SPLIT-val,val,98,686,"Overkomit (tau 0,7)",98,0.000000,0.000000,0.000000
+qwen4-max-preview,SPLIT-val,val,98,686,False-support near R1,98,0.154694,0.113980,0.202347
+qwen4-max-preview,SPLIT-val,val,98,686,False-support far R1,98,0.073469,0.053673,0.097755
+qwen4-max-preview,SPLIT-val,val,98,686,Selisih FS near-far R1,98,0.081224,0.038673,0.128265
+qwen4-max-preview,SPLIT-val,val,98,686,False-support near R3,98,0.195918,0.148673,0.252245
+qwen4-max-preview,SPLIT-val,val,98,686,False-support far R3,98,0.138061,0.100000,0.184184
+qwen4-max-preview,SPLIT-val,val,98,686,Selisih FS near-far R3,98,0.057857,0.024796,0.097245
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Brier batas 1 own R3 (anchor SUPPORTED),96,0.137298,0.056177,0.232091
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Brier batas 1 near R1 (anchor NEI),98,0.053699,0.002451,0.118581
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Brier batas 1 near R3 (anchor NEI),98,0.074170,0.017778,0.153049
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Brier batas 1 far R1 (anchor NEI),98,0.001542,0.000685,0.002677
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Brier batas 1 far R3 (anchor NEI),98,0.052767,0.000644,0.122319
+deepseek-v4.1-flash,SPLIT-val,val,98,686,"Brier batas 2 own R3 (gagal = 2,0)",98,0.175313,,
+deepseek-v4.1-flash,SPLIT-val,val,98,686,"Brier batas 2 near R1 (gagal = 2,0)",98,0.053699,,
+deepseek-v4.1-flash,SPLIT-val,val,98,686,"Brier batas 2 near R3 (gagal = 2,0)",98,0.074170,,
+deepseek-v4.1-flash,SPLIT-val,val,98,686,"Brier batas 2 far R1 (gagal = 2,0)",98,0.001542,,
+deepseek-v4.1-flash,SPLIT-val,val,98,686,"Brier batas 2 far R3 (gagal = 2,0)",98,0.052767,,
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Sesuai (label R1 = label R3),96,0.531250,0.437500,0.625000
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Pergeseran dS,96,0.412656,0.329219,0.500208
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Pergeseran dN,96,0.398333,0.316406,0.482292
+deepseek-v4.1-flash,SPLIT-val,val,98,686,"Overkomit (tau 0,7)",96,0.010417,0.000000,0.031250
+deepseek-v4.1-flash,SPLIT-val,val,98,686,False-support near R1,98,0.051633,0.023878,0.086429
+deepseek-v4.1-flash,SPLIT-val,val,98,686,False-support far R1,98,0.013163,0.008061,0.019388
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Selisih FS near-far R1,98,0.038469,0.010204,0.073469
+deepseek-v4.1-flash,SPLIT-val,val,98,686,False-support near R3,98,0.067143,0.035612,0.109592
+deepseek-v4.1-flash,SPLIT-val,val,98,686,False-support far R3,98,0.036633,0.008469,0.073265
+deepseek-v4.1-flash,SPLIT-val,val,98,686,Selisih FS near-far R3,98,0.030510,0.002347,0.063469
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 own R3 (anchor SUPPORTED),98,0.014859,0.001575,0.040208
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 near R1 (anchor NEI),98,0.053900,0.014665,0.108776
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 near R3 (anchor NEI),98,0.154214,0.075051,0.244284
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 far R1 (anchor NEI),98,0.036522,0.001871,0.089629
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 far R3 (anchor NEI),98,0.155557,0.075559,0.252920
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 own R3 (gagal = 2,0)",98,0.014859,,
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 near R1 (gagal = 2,0)",98,0.053900,,
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 near R3 (gagal = 2,0)",98,0.154214,,
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 far R1 (gagal = 2,0)",98,0.036522,,
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 far R3 (gagal = 2,0)",98,0.155557,,
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Sesuai (label R1 = label R3),98,0.489796,0.397959,0.591837
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Pergeseran dS,98,0.479786,0.400000,0.556724
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Pergeseran dN,98,0.455704,0.376724,0.531418
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,"Overkomit (tau 0,7)",98,0.010204,0.000000,0.030612
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,False-support near R1,98,0.078980,0.052551,0.112041
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,False-support far R1,98,0.038878,0.017653,0.070102
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Selisih FS near-far R1,98,0.040102,0.016327,0.066429
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,False-support near R3,98,0.135714,0.091531,0.187143
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,False-support far R3,98,0.114694,0.068163,0.169082
+qwen3.8-flash,SPLIT-holdout,holdout,98,686,Selisih FS near-far R3,98,0.021020,-0.036939,0.075000
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Brier batas 1 own R3 (anchor SUPPORTED),98,0.021166,0.006316,0.046449
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Brier batas 1 near R1 (anchor NEI),98,0.096189,0.047210,0.155983
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Brier batas 1 near R3 (anchor NEI),98,0.240871,0.147757,0.351600
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Brier batas 1 far R1 (anchor NEI),98,0.061756,0.019355,0.121509
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Brier batas 1 far R3 (anchor NEI),98,0.151077,0.075014,0.245622
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,"Brier batas 2 own R3 (gagal = 2,0)",98,0.021166,,
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,"Brier batas 2 near R1 (gagal = 2,0)",98,0.096189,,
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,"Brier batas 2 near R3 (gagal = 2,0)",98,0.240871,,
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,"Brier batas 2 far R1 (gagal = 2,0)",98,0.061756,,
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,"Brier batas 2 far R3 (gagal = 2,0)",98,0.151077,,
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Sesuai (label R1 = label R3),98,0.561224,0.469388,0.653061
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Pergeseran dS,98,0.388929,0.316429,0.461071
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Pergeseran dN,98,0.353316,0.284694,0.420255
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,"Overkomit (tau 0,7)",98,0.010204,0.000000,0.030612
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,False-support near R1,98,0.144694,0.111531,0.183776
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,False-support far R1,98,0.091939,0.064184,0.126224
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Selisih FS near-far R1,98,0.052755,0.022959,0.084898
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,False-support near R3,98,0.223469,0.172959,0.282041
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,False-support far R3,98,0.146939,0.102143,0.199796
+qwen4-max-preview,SPLIT-holdout,holdout,98,686,Selisih FS near-far R3,98,0.076531,0.030510,0.122653
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 own R3 (anchor SUPPORTED),96,0.073876,0.021833,0.139980
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 near R1 (anchor NEI),98,0.042618,0.003108,0.102280
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 near R3 (anchor NEI),98,0.075548,0.019953,0.159110
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 far R1 (anchor NEI),98,0.001259,0.000637,0.001994
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Brier batas 1 far R3 (anchor NEI),98,0.109673,0.036692,0.197160
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 own R3 (gagal = 2,0)",98,0.113184,,
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 near R1 (gagal = 2,0)",98,0.042618,,
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 near R3 (gagal = 2,0)",98,0.075548,,
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 far R1 (gagal = 2,0)",98,0.001259,,
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,"Brier batas 2 far R3 (gagal = 2,0)",98,0.109673,,
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Sesuai (label R1 = label R3),96,0.479167,0.385417,0.583333
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Pergeseran dS,96,0.409062,0.321771,0.494583
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Pergeseran dN,96,0.388437,0.301302,0.474427
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,"Overkomit (tau 0,7)",96,0.031250,0.000000,0.072917
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,False-support near R1,98,0.050204,0.026939,0.082245
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,False-support far R1,98,0.013980,0.009490,0.019286
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Selisih FS near-far R1,98,0.036224,0.014592,0.066122
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,False-support near R3,98,0.067959,0.036735,0.111224
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,False-support far R3,98,0.073265,0.033980,0.120204
+deepseek-v4.1-flash,SPLIT-holdout,holdout,98,686,Selisih FS near-far R3,98,-0.005306,-0.049694,0.035000

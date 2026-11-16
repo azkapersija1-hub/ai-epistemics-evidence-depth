@@ -1,0 +1,3 @@
+model,obs_id,claim_id,rung,label,v1,v2,pct1,pct2,err1,err2
+deepseek-v4.1-flash,C0099_7,C0099,R3,SUPPORTED,True,False,1,2,,tidak ada objek JSON dengan kunci label
+deepseek-v4.1-flash,C0246_2,C0246,R3,SUPPORTED,False,True,2,1,tidak ada objek JSON dengan kunci label,

@@ -1,0 +1,5 @@
+# PRATINJAU SAJA: butir KELUAR berstatus SEMENTARA (kurang dari 3 penilai). Bukan daftar keluar utama.
+# JANGKAR (pernyataan jangkar)
+# UBAHAN (draf ubahan; dicatat terpisah, bukan jangkar)
+C0085
+C0233

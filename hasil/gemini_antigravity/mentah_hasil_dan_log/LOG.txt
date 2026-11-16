@@ -1,0 +1,33 @@
+batch_pilot_001.jsonl, 20 lines, 2026-11-12 11:04:45 +07:00
+batch_pilot_002.jsonl, 20 lines, 2026-11-12 11:06:20 +07:00
+batch_pilot_003.jsonl, 20 lines, 2026-11-12 11:07:40 +07:00
+batch_pilot_004.jsonl, 20 lines, 2026-11-12 11:21:10 +07:00
+batch_pilot_005.jsonl, 20 lines, 2026-11-12 11:22:20 +07:00
+batch_pilot_006.jsonl, 20 lines, 2026-11-12 11:23:45 +07:00
+batch_pilot_007.jsonl, 20 lines, 2026-11-12 11:26:05 +07:00
+batch_holdout_001.jsonl, 25 lines, 2026-11-12 11:30:15 +07:00
+batch_holdout_002.jsonl, 33 lines, 2026-11-12 11:32:25 +07:00
+batch_holdout_003.jsonl, 26 lines, 2026-11-12 11:34:00 +07:00
+batch_holdout_004.jsonl, 25 lines, 2026-11-12 11:42:35 +07:00
+batch_holdout_005.jsonl, 28 lines, 2026-11-12 11:44:40 +07:00
+batch_holdout_006.jsonl, 28 lines, 2026-11-12 11:46:30 +07:00
+batch_holdout_007.jsonl, 23 lines, 2026-11-12 11:49:05 +07:00
+batch_holdout_008.jsonl, 31 lines, 2026-11-12 11:50:45 +07:00
+batch_holdout_009.jsonl, 25 lines, 2026-11-12 11:52:10 +07:00
+batch_holdout_010.jsonl, 30 lines, 2026-11-12 12:17:43
+batch_holdout_011.jsonl, 33 lines, 2026-11-12 12:19:29
+batch_holdout_012.jsonl, 35 lines, 2026-11-12 12:21:34
+batch_holdout_013.jsonl, 23 lines, 2026-11-12 12:23:33
+batch_holdout_014.jsonl, 27 lines, 2026-11-12 12:25:25
+batch_holdout_015.jsonl, 24 lines, 2026-11-12 12:27:03
+batch_holdout_016.jsonl, 29 lines, 2026-11-12 12:32:22
+batch_holdout_017.jsonl, 30 lines, 2026-11-12 12:33:57
+batch_holdout_018.jsonl, 30 lines, 2026-11-12 12:35:27
+batch_holdout_019.jsonl, 21 lines, 2026-11-12 12:38:30
+batch_holdout_020.jsonl, 24 lines, 2026-11-12 12:40:00
+batch_holdout_021.jsonl, 29 lines, 2026-11-12 12:41:40
+batch_holdout_022.jsonl, 24 lines, 2026-11-12 12:43:10
+batch_holdout_023.jsonl, 27 lines, 2026-11-12 12:44:50
+batch_holdout_024.jsonl, 29 lines, 2026-11-12 12:47:00
+batch_holdout_025.jsonl, 23 lines, 2026-11-12 12:48:30
+batch_holdout_026.jsonl, 4 lines, 2026-11-12 12:49:05

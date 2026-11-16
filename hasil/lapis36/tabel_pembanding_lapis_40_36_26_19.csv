@@ -1,0 +1,81 @@
+model,metrik,nilai_lapis40,nilai_lapis36,nilai_lapis26,nilai_lapis19
+qwen3.8-flash,"Brier batas 1 own R3 (anchor SUPPORTED)",0.068920,0.076467,0.039792,0.054023
+qwen3.8-flash,"Brier batas 1 near R1 (anchor NEI)",0.057280,0.058889,0.079215,0.107516
+qwen3.8-flash,"Brier batas 1 near R3 (anchor NEI)",0.125295,0.138800,0.177638,0.241505
+qwen3.8-flash,"Brier batas 1 far R1 (anchor NEI)",0.048710,0.054106,0.073308,0.099137
+qwen3.8-flash,"Brier batas 1 far R3 (anchor NEI)",0.081340,0.089956,0.121262,0.165295
+qwen3.8-flash,"Brier batas 2 own R3 (gagal = 2,0)",0.068920,0.076467,0.039792,0.054023
+qwen3.8-flash,"Brier batas 2 near R1 (gagal = 2,0)",0.057280,0.058889,0.079215,0.107516
+qwen3.8-flash,"Brier batas 2 near R3 (gagal = 2,0)",0.125295,0.138800,0.177638,0.241505
+qwen3.8-flash,"Brier batas 2 far R1 (gagal = 2,0)",0.048710,0.054106,0.073308,0.099137
+qwen3.8-flash,"Brier batas 2 far R3 (gagal = 2,0)",0.081340,0.089956,0.121262,0.165295
+qwen3.8-flash,"Sesuai (label R1 = R3)",0.475000,0.527778,0.615385,0.684211
+qwen3.8-flash,"Pergeseran dS",0.514050,0.468944,0.396231,0.340632
+qwen3.8-flash,"Pergeseran dN",0.489625,0.444306,0.372115,0.319474
+qwen3.8-flash,"Overkomit (tau 0,7)",0.000000,0.000000,0.000000,0.000000
+qwen3.8-flash,"False-support near R1",0.072500,0.071111,0.083846,0.109474
+qwen3.8-flash,"False-support far R1",0.046250,0.050833,0.058846,0.069474
+qwen3.8-flash,"Selisih FS near-far R1",0.026250,0.020278,0.025000,0.040000
+qwen3.8-flash,"False-support near R3",0.122750,0.133611,0.146538,0.190000
+qwen3.8-flash,"False-support far R3",0.076000,0.081389,0.095385,0.122105
+qwen3.8-flash,"Selisih FS near-far R3",0.046750,0.052222,0.051154,0.067895
+qwen4-max-preview,"Brier batas 1 own R3 (anchor SUPPORTED)",0.008586,0.008347,0.007438,0.008417
+qwen4-max-preview,"Brier batas 1 near R1 (anchor NEI)",0.063395,0.069572,0.085862,0.113895
+qwen4-max-preview,"Brier batas 1 near R3 (anchor NEI)",0.159310,0.172478,0.187669,0.243632
+qwen4-max-preview,"Brier batas 1 far R1 (anchor NEI)",0.070065,0.077311,0.079354,0.107284
+qwen4-max-preview,"Brier batas 1 far R3 (anchor NEI)",0.240080,0.262967,0.277415,0.306495
+qwen4-max-preview,"Brier batas 2 own R3 (gagal = 2,0)",0.008586,0.008347,0.007438,0.008417
+qwen4-max-preview,"Brier batas 2 near R1 (gagal = 2,0)",0.063395,0.069572,0.085862,0.113895
+qwen4-max-preview,"Brier batas 2 near R3 (gagal = 2,0)",0.159310,0.172478,0.187669,0.243632
+qwen4-max-preview,"Brier batas 2 far R1 (gagal = 2,0)",0.070065,0.077311,0.079354,0.107284
+qwen4-max-preview,"Brier batas 2 far R3 (gagal = 2,0)",0.240080,0.262967,0.277415,0.306495
+qwen4-max-preview,"Sesuai (label R1 = R3)",0.500000,0.555556,0.653846,0.736842
+qwen4-max-preview,"Pergeseran dS",0.458125,0.411944,0.313269,0.244474
+qwen4-max-preview,"Pergeseran dN",0.419450,0.374944,0.276269,0.198842
+qwen4-max-preview,"Overkomit (tau 0,7)",0.000000,0.000000,0.000000,0.000000
+qwen4-max-preview,"False-support near R1",0.116250,0.121667,0.125769,0.148947
+qwen4-max-preview,"False-support far R1",0.104000,0.110000,0.106923,0.131579
+qwen4-max-preview,"Selisih FS near-far R1",0.012250,0.011667,0.018846,0.017368
+qwen4-max-preview,"False-support near R3",0.202750,0.212222,0.212692,0.251053
+qwen4-max-preview,"False-support far R3",0.209500,0.220000,0.211154,0.234211
+qwen4-max-preview,"Selisih FS near-far R3",-0.006750,-0.007778,0.001538,0.016842
+deepseek-v4.1-flash,"Brier batas 1 own R3 (anchor SUPPORTED)",0.110971,0.122453,0.109118,0.147664
+deepseek-v4.1-flash,"Brier batas 1 near R1 (anchor NEI)",0.003380,0.003544,0.004092,0.005305
+deepseek-v4.1-flash,"Brier batas 1 near R3 (anchor NEI)",0.006915,0.007561,0.009608,0.012853
+deepseek-v4.1-flash,"Brier batas 1 far R1 (anchor NEI)",0.089554,0.099421,0.075277,0.102684
+deepseek-v4.1-flash,"Brier batas 1 far R3 (anchor NEI)",0.080869,0.089821,0.056060,0.075629
+deepseek-v4.1-flash,"Brier batas 2 own R3 (gagal = 2,0)",0.158196,0.174607,0.181844,0.245155
+deepseek-v4.1-flash,"Brier batas 2 near R1 (gagal = 2,0)",0.003380,0.003544,0.004092,0.005305
+deepseek-v4.1-flash,"Brier batas 2 near R3 (gagal = 2,0)",0.006915,0.007561,0.009608,0.012853
+deepseek-v4.1-flash,"Brier batas 2 far R1 (gagal = 2,0)",0.089554,0.099421,0.075277,0.102684
+deepseek-v4.1-flash,"Brier batas 2 far R3 (gagal = 2,0)",0.080869,0.089821,0.056060,0.075629
+deepseek-v4.1-flash,"Sesuai (label R1 = R3)",0.384615,0.428571,0.520000,0.611111
+deepseek-v4.1-flash,"Pergeseran dS",0.494359,0.444857,0.332800,0.241667
+deepseek-v4.1-flash,"Pergeseran dN",0.485513,0.435857,0.325000,0.235556
+deepseek-v4.1-flash,"Overkomit (tau 0,7)",0.025641,0.028571,0.040000,0.055556
+deepseek-v4.1-flash,"False-support near R1",0.029000,0.028889,0.028077,0.032632
+deepseek-v4.1-flash,"False-support far R1",0.058250,0.063056,0.050000,0.061579
+deepseek-v4.1-flash,"Selisih FS near-far R1",-0.029250,-0.034167,-0.021923,-0.028947
+deepseek-v4.1-flash,"False-support near R3",0.037250,0.039444,0.046538,0.057895
+deepseek-v4.1-flash,"False-support far R3",0.056000,0.061111,0.043462,0.051579
+deepseek-v4.1-flash,"Selisih FS near-far R3",-0.018750,-0.021667,0.003077,0.006316
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 1 own R3 (anchor SUPPORTED)",0.030466,0.033903,0.045020,0.061353
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 1 near R1 (anchor NEI)",0.000966,0.000911,0.001134,0.001508
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 1 near R3 (anchor NEI)",0.004368,0.004779,0.006372,0.008446
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 1 far R1 (anchor NEI)",0.000460,0.000512,0.000075,0.000101
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 1 far R3 (anchor NEI)",0.001031,0.001146,0.000306,0.000137
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 2 own R3 (gagal = 2,0)",0.079705,0.088516,0.045020,0.061353
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 2 near R1 (gagal = 2,0)",0.050942,0.056441,0.001134,0.001508
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 2 near R3 (gagal = 2,0)",0.054259,0.060202,0.006372,0.008446
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 2 far R1 (gagal = 2,0)",0.050448,0.056053,0.000075,0.000101
+codex_gpt61_sol_tak_terverifikasi,"Brier batas 2 far R3 (gagal = 2,0)",0.051005,0.056670,0.000306,0.000137
+codex_gpt61_sol_tak_terverifikasi,"Sesuai (label R1 = R3)",0.461538,0.514286,0.653846,0.736842
+codex_gpt61_sol_tak_terverifikasi,"Pergeseran dS",0.485385,0.430057,0.308154,0.231053
+codex_gpt61_sol_tak_terverifikasi,"Pergeseran dN",0.492769,0.438486,0.321385,0.249579
+codex_gpt61_sol_tak_terverifikasi,"Overkomit (tau 0,7)",0.000000,0.000000,0.000000,0.000000
+codex_gpt61_sol_tak_terverifikasi,"False-support near R1",0.009897,0.009229,0.009577,0.011053
+codex_gpt61_sol_tak_terverifikasi,"False-support far R1",0.005256,0.005629,0.003308,0.003789
+codex_gpt61_sol_tak_terverifikasi,"Selisih FS near-far R1",0.004641,0.003600,0.006269,0.007263
+codex_gpt61_sol_tak_terverifikasi,"False-support near R3",0.015590,0.016000,0.019231,0.022000
+codex_gpt61_sol_tak_terverifikasi,"False-support far R3",0.008026,0.008571,0.005769,0.004474
+codex_gpt61_sol_tak_terverifikasi,"Selisih FS near-far R3",0.007564,0.007429,0.013462,0.017526

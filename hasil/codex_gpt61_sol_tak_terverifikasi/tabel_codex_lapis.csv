@@ -1,0 +1,61 @@
+model,lapis,metrik,n,nilai,ci_lo,ci_hi,selisih_vs_lapis40
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 1 own R3 (anchor SUPPORTED)",39,0.030466,0.000320,0.089019,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 1 near R1 (anchor NEI)",39,0.000966,0.000092,0.002633,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 1 near R3 (anchor NEI)",39,0.004368,0.000181,0.012658,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 1 far R1 (anchor NEI)",39,0.000460,0.000007,0.001317,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 1 far R3 (anchor NEI)",39,0.001031,0.000025,0.002775,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 2 own R3 (gagal = 2,0)",40,0.079705,,,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 2 near R1 (gagal = 2,0)",40,0.050942,,,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 2 near R3 (gagal = 2,0)",40,0.054259,,,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 2 far R1 (gagal = 2,0)",40,0.050448,,,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Brier batas 2 far R3 (gagal = 2,0)",40,0.051005,,,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Sesuai (label R1 = R3)",39,0.461538,0.307692,0.615385,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Pergeseran dS",39,0.485385,0.354692,0.616897,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Pergeseran dN",39,0.492769,0.358410,0.623923,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Overkomit (tau 0,7)",39,0.000000,0.000000,0.000000,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"False-support near R1",39,0.009897,0.004872,0.017513,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"False-support far R1",39,0.005256,0.002154,0.010462,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Selisih FS near-far R1",39,0.004641,-0.002000,0.013179,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"False-support near R3",39,0.015590,0.006128,0.032872,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"False-support far R3",39,0.008026,0.002846,0.015487,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,40,"Selisih FS near-far R3",39,0.007564,-0.004795,0.026179,0 (acuan)
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 1 own R3 (anchor SUPPORTED)",26,0.045020,0.000214,0.133024,0.014554
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 1 near R1 (anchor NEI)",26,0.001134,0.000041,0.003256,0.000168
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 1 near R3 (anchor NEI)",26,0.006372,0.000139,0.018582,0.002004
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 1 far R1 (anchor NEI)",26,0.000075,0.000006,0.000211,-0.000385
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 1 far R3 (anchor NEI)",26,0.000306,0.000008,0.000790,-0.000725
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 2 own R3 (gagal = 2,0)",26,0.045020,,,-0.034684
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 2 near R1 (gagal = 2,0)",26,0.001134,,,-0.049807
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 2 near R3 (gagal = 2,0)",26,0.006372,,,-0.047887
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 2 far R1 (gagal = 2,0)",26,0.000075,,,-0.050373
+codex_gpt61_sol_tak_terverifikasi,26,"Brier batas 2 far R3 (gagal = 2,0)",26,0.000306,,,-0.050699
+codex_gpt61_sol_tak_terverifikasi,26,"Sesuai (label R1 = R3)",26,0.653846,0.461538,0.846154,0.192308
+codex_gpt61_sol_tak_terverifikasi,26,"Pergeseran dS",26,0.308154,0.168769,0.462077,-0.177231
+codex_gpt61_sol_tak_terverifikasi,26,"Pergeseran dN",26,0.321385,0.177731,0.471192,-0.171385
+codex_gpt61_sol_tak_terverifikasi,26,"Overkomit (tau 0,7)",26,0.000000,0.000000,0.000000,0.000000
+codex_gpt61_sol_tak_terverifikasi,26,"False-support near R1",26,0.009577,0.003731,0.019423,-0.000321
+codex_gpt61_sol_tak_terverifikasi,26,"False-support far R1",26,0.003308,0.002038,0.005654,-0.001949
+codex_gpt61_sol_tak_terverifikasi,26,"Selisih FS near-far R1",26,0.006269,0.000308,0.016385,0.001628
+codex_gpt61_sol_tak_terverifikasi,26,"False-support near R3",26,0.019231,0.005577,0.042615,0.003641
+codex_gpt61_sol_tak_terverifikasi,26,"False-support far R3",26,0.005769,0.002192,0.010769,-0.002256
+codex_gpt61_sol_tak_terverifikasi,26,"Selisih FS near-far R3",26,0.013462,0.000115,0.037154,0.005897
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 1 own R3 (anchor SUPPORTED)",19,0.061353,0.000099,0.181762,0.030887
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 1 near R1 (anchor NEI)",19,0.001508,0.000037,0.004382,0.000542
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 1 near R3 (anchor NEI)",19,0.008446,0.000090,0.024997,0.004078
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 1 far R1 (anchor NEI)",19,0.000101,0.000006,0.000287,-0.000359
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 1 far R3 (anchor NEI)",19,0.000137,0.000006,0.000370,-0.000894
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 2 own R3 (gagal = 2,0)",19,0.061353,,,-0.018351
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 2 near R1 (gagal = 2,0)",19,0.001508,,,-0.049434
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 2 near R3 (gagal = 2,0)",19,0.008446,,,-0.045812
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 2 far R1 (gagal = 2,0)",19,0.000101,,,-0.050348
+codex_gpt61_sol_tak_terverifikasi,19,"Brier batas 2 far R3 (gagal = 2,0)",19,0.000137,,,-0.050868
+codex_gpt61_sol_tak_terverifikasi,19,"Sesuai (label R1 = R3)",19,0.736842,0.526316,0.947368,0.275304
+codex_gpt61_sol_tak_terverifikasi,19,"Pergeseran dS",19,0.231053,0.085947,0.393000,-0.254332
+codex_gpt61_sol_tak_terverifikasi,19,"Pergeseran dN",19,0.249579,0.098368,0.411211,-0.243190
+codex_gpt61_sol_tak_terverifikasi,19,"Overkomit (tau 0,7)",19,0.000000,0.000000,0.000000,0.000000
+codex_gpt61_sol_tak_terverifikasi,19,"False-support near R1",19,0.011053,0.003632,0.023684,0.001155
+codex_gpt61_sol_tak_terverifikasi,19,"False-support far R1",19,0.003789,0.002053,0.007000,-0.001467
+codex_gpt61_sol_tak_terverifikasi,19,"Selisih FS near-far R1",19,0.007263,-0.000526,0.020316,0.002622
+codex_gpt61_sol_tak_terverifikasi,19,"False-support near R3",19,0.022000,0.004947,0.052474,0.006410
+codex_gpt61_sol_tak_terverifikasi,19,"False-support far R3",19,0.004474,0.002053,0.008316,-0.003552
+codex_gpt61_sol_tak_terverifikasi,19,"Selisih FS near-far R3",19,0.017526,-0.000211,0.048421,0.009962

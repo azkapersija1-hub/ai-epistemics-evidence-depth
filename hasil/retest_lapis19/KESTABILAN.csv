@@ -1,0 +1,13 @@
+model,tingkat_bukti,n_observasi,n_pasangan_valid,n_gagal_parse_salah_satu,persen_argmax_sama,persen_argmax_sama_gagal_dihitung_beda,rerata_abs_selisih_pSUPPORTED,n_berlabel_valid,n_klaim_tingkat_berlabel,rerata_selisih_brier_klaim_u2_minus_u1,rerata_abs_selisih_brier_klaim
+qwen3.8-flash,R1,57,57,0,0.929825,0.929825,0.044912,38,19,-0.052016,0.062921
+qwen3.8-flash,R2,19,19,0,0.789474,0.789474,0.093158,0,0,,
+qwen3.8-flash,R3,57,57,0,0.894737,0.894737,0.030175,57,19,0.014236,0.140928
+qwen3.8-flash,SEMUA,133,133,0,0.894737,0.894737,0.045489,95,38,-0.018890,0.101925
+deepseek-v4.1-flash,R1,57,57,0,0.947368,0.947368,0.032105,38,19,-0.050305,0.053379
+deepseek-v4.1-flash,R2,19,19,0,0.947368,0.947368,0.046842,0,0,,
+deepseek-v4.1-flash,R3,57,55,2,0.927273,0.894737,0.020727,55,19,0.030871,0.120522
+deepseek-v4.1-flash,SEMUA,133,131,2,0.938931,0.924812,0.029466,93,38,-0.009717,0.086950
+qwen4-max-preview,R1,57,57,0,0.947368,0.947368,0.021754,38,19,0.022579,0.055105
+qwen4-max-preview,R2,19,19,0,0.947368,0.947368,0.029737,0,0,,
+qwen4-max-preview,R3,57,57,0,0.947368,0.947368,0.011491,57,19,-0.000783,0.058053
+qwen4-max-preview,SEMUA,133,133,0,0.947368,0.947368,0.018496,95,38,0.010898,0.056579

@@ -1,0 +1,19 @@
+# Analisis ketat: seluruh butir dengan setidaknya satu suara TIDAK_LAYAK (Amandemen 6 butir b).
+# JANGKAR (pernyataan jangkar)
+C0025
+C0144
+C0152
+C0056
+C0107
+C0109
+C0295
+C0101
+C0230
+C0224
+C0287
+C0162
+C0057
+C0225
+# UBAHAN (draf ubahan; dicatat terpisah, bukan jangkar)
+C0085
+C0233

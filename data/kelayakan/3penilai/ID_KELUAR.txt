@@ -1,0 +1,3 @@
+# Butir KELUAR FINAL atau KELUAR lewat diskusi (analisis kepekaan utama). Status lengkap: status_butir.csv.
+# JANGKAR (pernyataan jangkar)
+# UBAHAN (draf ubahan; dicatat terpisah, bukan jangkar)

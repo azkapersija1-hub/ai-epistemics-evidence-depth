@@ -1,0 +1,13 @@
+# Lingkungan dan cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+mplcache/
+
+# Rahasia dan kunci
+.env
+RAHASIA/
+kunci*
+profil_api*
+pemakaian*

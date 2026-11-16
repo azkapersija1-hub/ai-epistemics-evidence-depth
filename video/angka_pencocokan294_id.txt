@@ -1,0 +1,29 @@
+=== bahasa: id ===
+CSV main | qwen3.8-flash | Brier own R3 = 0.032167 (n=294) | near R3 = 0.146559 | far R3 = 0.087131 | Sesuai = 0.503401 [0.445578; 0.561224] | FS near R3 = 0.126973 | FS far R3 = 0.070717
+CSV kepekaan | qwen3.8-flash | UTAMA-294 | Brier own R3 = 0.032167 (n=294)
+CSV kepekaan | qwen3.8-flash | KEPEKAAN-A | Brier own R3 = 0.032597 (n=290)
+CSV kepekaan | qwen3.8-flash | KEPEKAAN-B | Brier own R3 = 0.027625 (n=280)
+CSV main | qwen4-max-preview | Brier own R3 = 0.022180 (n=294) | near R3 = 0.23124 | far R3 = 0.145517 | Sesuai = 0.530612 [0.472789; 0.585034] | FS near R3 = 0.219762 | FS far R3 = 0.148673
+CSV kepekaan | qwen4-max-preview | UTAMA-294 | Brier own R3 = 0.022180 (n=294)
+CSV kepekaan | qwen4-max-preview | KEPEKAAN-A | Brier own R3 = 0.022338 (n=290)
+CSV kepekaan | qwen4-max-preview | KEPEKAAN-B | Brier own R3 = 0.022754 (n=280)
+CSV main | deepseek-v4.1-flash | Brier own R3 = 0.091905 (n=288) | near R3 = 0.074864 | far R3 = 0.071243 | Sesuai = 0.489583 [0.434028; 0.548611] | FS near R3 = 0.068878 | FS far R3 = 0.049898
+CSV kepekaan | deepseek-v4.1-flash | UTAMA-294 | Brier own R3 = 0.091905 (n=288)
+CSV kepekaan | deepseek-v4.1-flash | KEPEKAAN-A | Brier own R3 = 0.093052 (n=284)
+CSV kepekaan | deepseek-v4.1-flash | KEPEKAAN-B | Brier own R3 = 0.090762 (n=274)
+CSV KESTABILAN | qwen3.8-flash | SEMUA | persen_argmax_sama = 0.894737 | gagal dihitung beda = 0.894737 | n_observasi = 133
+CSV KESTABILAN | qwen4-max-preview | SEMUA | persen_argmax_sama = 0.947368 | gagal dihitung beda = 0.947368 | n_observasi = 133
+CSV KESTABILAN | deepseek-v4.1-flash | SEMUA | persen_argmax_sama = 0.938931 | gagal dihitung beda = 0.924812 | n_observasi = 133
+KESTABILAN.md | Cakupan = 19 klaim
+jumlah_set.md | UTAMA-294: 294 klaim, 2058 observasi per model (3 model cocok)
+deepseek own R3 n = 288 dari 294 (gagal parse dikecualikan)
+lapis_36_claim_id.txt = 36 baris; PREREG memuat '294 klaim' dan '40 pernyataan'
+cek silang pooled Brier | qwen3.8-flash | CSV = 0.069089 (N=1469) | CATATAN_WB = 0.069089 | cocok = True
+cek silang pooled Brier | qwen4-max-preview | CSV = 0.111862 (N=1470) | CATATAN_WB = 0.111862 | cocok = True
+cek silang pooled Brier | deepseek-v4.1-flash | CSV = 0.056929 (N=1464) | CATATAN_WB = 0.056929 | cocok = True
+linimasa: total 80.5 s, 2415 bingkai, transisi 0.5 s
+periksa tata letak: 0 masalah
+  suhu GPU sebelum encode: 55 C
+encode id percobaan 1, h264_nvenc p5 cq23
+ffprobe id: {"programs": [], "stream_groups": [], "streams": [{"codec_name": "h264", "codec_type": "video", "width": 1920, "height": 1080, "pix_fmt": "yuv420p", "r_frame_rate": "30/1", "nb_frames": "2415"}], "format": {"duration": "80.500000", "size": "3647023"}}
+suhu GPU tertinggi selama sesi: 56 C

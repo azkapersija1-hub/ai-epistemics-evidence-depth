@@ -1,0 +1,241 @@
+model,metrik,sumber,n_klaim,n_obs,n,nilai,ci_lo,ci_hi
+qwen3.8-flash,Brier batas 1 own R3 (anchor SUPPORTED),294,294,2058,294,0.032167,0.011173,0.057941
+qwen3.8-flash,Brier batas 1 own R3 (anchor SUPPORTED),KEPEKAAN-A,290,2030,290,0.032597,0.011760,0.059488
+qwen3.8-flash,Brier batas 1 own R3 (anchor SUPPORTED),KEPEKAAN-B,280,1960,280,0.027625,0.008647,0.052676
+qwen3.8-flash,Brier batas 1 own R3 (anchor SUPPORTED),lapis36,36,252,36,0.076467,0.000433,0.198478
+qwen3.8-flash,Brier batas 1 near R1 (anchor NEI),294,294,2058,294,0.053714,0.027278,0.084118
+qwen3.8-flash,Brier batas 1 near R1 (anchor NEI),KEPEKAAN-A,290,2030,290,0.053865,0.026894,0.085950
+qwen3.8-flash,Brier batas 1 near R1 (anchor NEI),KEPEKAAN-B,280,1960,280,0.055573,0.028673,0.086834
+qwen3.8-flash,Brier batas 1 near R1 (anchor NEI),lapis36,36,252,36,0.058889,0.004772,0.152428
+qwen3.8-flash,Brier batas 1 near R3 (anchor NEI),294,294,2058,294,0.146559,0.097666,0.201303
+qwen3.8-flash,Brier batas 1 near R3 (anchor NEI),KEPEKAAN-A,290,2030,290,0.148529,0.100340,0.201338
+qwen3.8-flash,Brier batas 1 near R3 (anchor NEI),KEPEKAAN-B,280,1960,280,0.152483,0.101099,0.206258
+qwen3.8-flash,Brier batas 1 near R3 (anchor NEI),lapis36,36,252,36,0.138800,0.020861,0.286567
+qwen3.8-flash,Brier batas 1 far R1 (anchor NEI),294,294,2058,294,0.025934,0.008156,0.050535
+qwen3.8-flash,Brier batas 1 far R1 (anchor NEI),KEPEKAAN-A,290,2030,290,0.026290,0.008497,0.050027
+qwen3.8-flash,Brier batas 1 far R1 (anchor NEI),KEPEKAAN-B,280,1960,280,0.027079,0.008342,0.051980
+qwen3.8-flash,Brier batas 1 far R1 (anchor NEI),lapis36,36,252,36,0.054106,0.001783,0.155117
+qwen3.8-flash,Brier batas 1 far R3 (anchor NEI),294,294,2058,293,0.087131,0.050478,0.130689
+qwen3.8-flash,Brier batas 1 far R3 (anchor NEI),KEPEKAAN-A,290,2030,289,0.088284,0.050738,0.133453
+qwen3.8-flash,Brier batas 1 far R3 (anchor NEI),KEPEKAAN-B,280,1960,279,0.091142,0.051658,0.134968
+qwen3.8-flash,Brier batas 1 far R3 (anchor NEI),lapis36,36,252,36,0.089956,0.005289,0.211222
+qwen3.8-flash,"Brier batas 2 own R3 (gagal = 2,0)",294,294,2058,294,0.032167,,
+qwen3.8-flash,"Brier batas 2 own R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.032597,,
+qwen3.8-flash,"Brier batas 2 own R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.027625,,
+qwen3.8-flash,"Brier batas 2 own R3 (gagal = 2,0)",lapis36,36,252,36,0.076467,,
+qwen3.8-flash,"Brier batas 2 near R1 (gagal = 2,0)",294,294,2058,294,0.053714,,
+qwen3.8-flash,"Brier batas 2 near R1 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.053865,,
+qwen3.8-flash,"Brier batas 2 near R1 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.055573,,
+qwen3.8-flash,"Brier batas 2 near R1 (gagal = 2,0)",lapis36,36,252,36,0.058889,,
+qwen3.8-flash,"Brier batas 2 near R3 (gagal = 2,0)",294,294,2058,294,0.146559,,
+qwen3.8-flash,"Brier batas 2 near R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.148529,,
+qwen3.8-flash,"Brier batas 2 near R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.152483,,
+qwen3.8-flash,"Brier batas 2 near R3 (gagal = 2,0)",lapis36,36,252,36,0.138800,,
+qwen3.8-flash,"Brier batas 2 far R1 (gagal = 2,0)",294,294,2058,294,0.025934,,
+qwen3.8-flash,"Brier batas 2 far R1 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.026290,,
+qwen3.8-flash,"Brier batas 2 far R1 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.027079,,
+qwen3.8-flash,"Brier batas 2 far R1 (gagal = 2,0)",lapis36,36,252,36,0.054106,,
+qwen3.8-flash,"Brier batas 2 far R3 (gagal = 2,0)",294,294,2058,294,0.093637,,
+qwen3.8-flash,"Brier batas 2 far R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.094877,,
+qwen3.8-flash,"Brier batas 2 far R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.097959,,
+qwen3.8-flash,"Brier batas 2 far R3 (gagal = 2,0)",lapis36,36,252,36,0.089956,,
+qwen3.8-flash,Sesuai (label R1 = label R3),294,294,2058,294,0.503401,0.445578,0.561224
+qwen3.8-flash,Sesuai (label R1 = label R3),KEPEKAAN-A,290,2030,290,0.510345,0.451724,0.565517
+qwen3.8-flash,Sesuai (label R1 = label R3),KEPEKAAN-B,280,1960,280,0.517857,0.460714,0.578571
+qwen3.8-flash,Sesuai (label R1 = label R3),lapis36,36,252,36,0.527778,0.361111,0.694444
+qwen3.8-flash,Pergeseran dS,294,294,2058,294,0.478827,0.431633,0.526347
+qwen3.8-flash,Pergeseran dS,KEPEKAAN-A,290,2030,290,0.472741,0.425672,0.518528
+qwen3.8-flash,Pergeseran dS,KEPEKAAN-B,280,1960,280,0.466125,0.418132,0.513593
+qwen3.8-flash,Pergeseran dS,lapis36,36,252,36,0.468944,0.339583,0.607472
+qwen3.8-flash,Pergeseran dN,294,294,2058,294,0.452464,0.406799,0.497437
+qwen3.8-flash,Pergeseran dN,KEPEKAAN-A,290,2030,290,0.446326,0.398857,0.490821
+qwen3.8-flash,Pergeseran dN,KEPEKAAN-B,280,1960,280,0.439695,0.393441,0.485686
+qwen3.8-flash,Pergeseran dN,lapis36,36,252,36,0.444306,0.318194,0.580944
+qwen3.8-flash,"Overkomit (tau 0,7)",294,294,2058,294,0.006803,0.000000,0.017007
+qwen3.8-flash,"Overkomit (tau 0,7)",KEPEKAAN-A,290,2030,290,0.006897,0.000000,0.017241
+qwen3.8-flash,"Overkomit (tau 0,7)",KEPEKAAN-B,280,1960,280,0.007143,0.000000,0.017857
+qwen3.8-flash,"Overkomit (tau 0,7)",lapis36,36,252,36,0.000000,0.000000,0.000000
+qwen3.8-flash,False-support near R1,294,294,2058,294,0.071837,0.055102,0.090680
+qwen3.8-flash,False-support near R1,KEPEKAAN-A,290,2030,290,0.071655,0.055276,0.090345
+qwen3.8-flash,False-support near R1,KEPEKAAN-B,280,1960,280,0.072857,0.055571,0.091571
+qwen3.8-flash,False-support near R1,lapis36,36,252,36,0.071111,0.028611,0.130833
+qwen3.8-flash,False-support far R1,294,294,2058,294,0.034694,0.023537,0.048912
+qwen3.8-flash,False-support far R1,KEPEKAAN-A,290,2030,290,0.035103,0.023931,0.049000
+qwen3.8-flash,False-support far R1,KEPEKAAN-B,280,1960,280,0.035286,0.023250,0.049464
+qwen3.8-flash,False-support far R1,lapis36,36,252,36,0.050833,0.015278,0.107500
+qwen3.8-flash,Selisih FS near-far R1,294,294,2058,294,0.037143,0.020952,0.054558
+qwen3.8-flash,Selisih FS near-far R1,KEPEKAAN-A,290,2030,290,0.036552,0.021172,0.053828
+qwen3.8-flash,Selisih FS near-far R1,KEPEKAAN-B,280,1960,280,0.037571,0.020714,0.055536
+qwen3.8-flash,Selisih FS near-far R1,lapis36,36,252,36,0.020278,-0.007222,0.051111
+qwen3.8-flash,False-support near R3,294,294,2058,294,0.126973,0.099830,0.157959
+qwen3.8-flash,False-support near R3,KEPEKAAN-A,290,2030,290,0.128379,0.101483,0.156207
+qwen3.8-flash,False-support near R3,KEPEKAAN-B,280,1960,280,0.129393,0.099286,0.159357
+qwen3.8-flash,False-support near R3,lapis36,36,252,36,0.133611,0.065000,0.215278
+qwen3.8-flash,False-support far R3,294,294,2058,293,0.070717,0.050307,0.095188
+qwen3.8-flash,False-support far R3,KEPEKAAN-A,290,2030,289,0.071315,0.049273,0.096678
+qwen3.8-flash,False-support far R3,KEPEKAAN-B,280,1960,279,0.072258,0.049140,0.096989
+qwen3.8-flash,False-support far R3,lapis36,36,252,36,0.081389,0.024167,0.151111
+qwen3.8-flash,Selisih FS near-far R3,294,294,2058,294,0.056256,0.026156,0.085250
+qwen3.8-flash,Selisih FS near-far R3,KEPEKAAN-A,290,2030,290,0.057064,0.025801,0.087448
+qwen3.8-flash,Selisih FS near-far R3,KEPEKAAN-B,280,1960,280,0.057135,0.027322,0.088610
+qwen3.8-flash,Selisih FS near-far R3,lapis36,36,252,36,0.052222,-0.034444,0.141111
+qwen4-max-preview,Brier batas 1 own R3 (anchor SUPPORTED),294,294,2058,294,0.022180,0.009219,0.038134
+qwen4-max-preview,Brier batas 1 own R3 (anchor SUPPORTED),KEPEKAAN-A,290,2030,290,0.022338,0.009784,0.038606
+qwen4-max-preview,Brier batas 1 own R3 (anchor SUPPORTED),KEPEKAAN-B,280,1960,280,0.022754,0.009315,0.039878
+qwen4-max-preview,Brier batas 1 own R3 (anchor SUPPORTED),lapis36,36,252,36,0.008347,0.002942,0.015082
+qwen4-max-preview,Brier batas 1 near R1 (anchor NEI),294,294,2058,294,0.112127,0.078633,0.149180
+qwen4-max-preview,Brier batas 1 near R1 (anchor NEI),KEPEKAAN-A,290,2030,290,0.113566,0.080462,0.153033
+qwen4-max-preview,Brier batas 1 near R1 (anchor NEI),KEPEKAAN-B,280,1960,280,0.116649,0.082073,0.155658
+qwen4-max-preview,Brier batas 1 near R1 (anchor NEI),lapis36,36,252,36,0.069572,0.017406,0.156494
+qwen4-max-preview,Brier batas 1 near R3 (anchor NEI),294,294,2058,294,0.231240,0.175338,0.293153
+qwen4-max-preview,Brier batas 1 near R3 (anchor NEI),KEPEKAAN-A,290,2030,290,0.233867,0.179183,0.289476
+qwen4-max-preview,Brier batas 1 near R3 (anchor NEI),KEPEKAAN-B,280,1960,280,0.237470,0.180442,0.297058
+qwen4-max-preview,Brier batas 1 near R3 (anchor NEI),lapis36,36,252,36,0.172478,0.075528,0.293694
+qwen4-max-preview,Brier batas 1 far R1 (anchor NEI),294,294,2058,294,0.048244,0.026258,0.074607
+qwen4-max-preview,Brier batas 1 far R1 (anchor NEI),KEPEKAAN-A,290,2030,290,0.048843,0.027403,0.074391
+qwen4-max-preview,Brier batas 1 far R1 (anchor NEI),KEPEKAAN-B,280,1960,280,0.048016,0.025736,0.074030
+qwen4-max-preview,Brier batas 1 far R1 (anchor NEI),lapis36,36,252,36,0.077311,0.014278,0.153872
+qwen4-max-preview,Brier batas 1 far R3 (anchor NEI),294,294,2058,294,0.145517,0.101018,0.193776
+qwen4-max-preview,Brier batas 1 far R3 (anchor NEI),KEPEKAAN-A,290,2030,290,0.147054,0.104444,0.196861
+qwen4-max-preview,Brier batas 1 far R3 (anchor NEI),KEPEKAAN-B,280,1960,280,0.144256,0.099004,0.190957
+qwen4-max-preview,Brier batas 1 far R3 (anchor NEI),lapis36,36,252,36,0.262967,0.108811,0.438644
+qwen4-max-preview,"Brier batas 2 own R3 (gagal = 2,0)",294,294,2058,294,0.022180,,
+qwen4-max-preview,"Brier batas 2 own R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.022338,,
+qwen4-max-preview,"Brier batas 2 own R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.022754,,
+qwen4-max-preview,"Brier batas 2 own R3 (gagal = 2,0)",lapis36,36,252,36,0.008347,,
+qwen4-max-preview,"Brier batas 2 near R1 (gagal = 2,0)",294,294,2058,294,0.112127,,
+qwen4-max-preview,"Brier batas 2 near R1 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.113566,,
+qwen4-max-preview,"Brier batas 2 near R1 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.116649,,
+qwen4-max-preview,"Brier batas 2 near R1 (gagal = 2,0)",lapis36,36,252,36,0.069572,,
+qwen4-max-preview,"Brier batas 2 near R3 (gagal = 2,0)",294,294,2058,294,0.231240,,
+qwen4-max-preview,"Brier batas 2 near R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.233867,,
+qwen4-max-preview,"Brier batas 2 near R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.237470,,
+qwen4-max-preview,"Brier batas 2 near R3 (gagal = 2,0)",lapis36,36,252,36,0.172478,,
+qwen4-max-preview,"Brier batas 2 far R1 (gagal = 2,0)",294,294,2058,294,0.048244,,
+qwen4-max-preview,"Brier batas 2 far R1 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.048843,,
+qwen4-max-preview,"Brier batas 2 far R1 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.048016,,
+qwen4-max-preview,"Brier batas 2 far R1 (gagal = 2,0)",lapis36,36,252,36,0.077311,,
+qwen4-max-preview,"Brier batas 2 far R3 (gagal = 2,0)",294,294,2058,294,0.145517,,
+qwen4-max-preview,"Brier batas 2 far R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.147054,,
+qwen4-max-preview,"Brier batas 2 far R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.144256,,
+qwen4-max-preview,"Brier batas 2 far R3 (gagal = 2,0)",lapis36,36,252,36,0.262967,,
+qwen4-max-preview,Sesuai (label R1 = label R3),294,294,2058,294,0.530612,0.472789,0.585034
+qwen4-max-preview,Sesuai (label R1 = label R3),KEPEKAAN-A,290,2030,290,0.537931,0.482759,0.593103
+qwen4-max-preview,Sesuai (label R1 = label R3),KEPEKAAN-B,280,1960,280,0.546429,0.485714,0.607143
+qwen4-max-preview,Sesuai (label R1 = label R3),lapis36,36,252,36,0.555556,0.388889,0.722222
+qwen4-max-preview,Pergeseran dS,294,294,2058,294,0.422585,0.379847,0.465595
+qwen4-max-preview,Pergeseran dS,KEPEKAAN-A,290,2030,290,0.416362,0.375086,0.457276
+qwen4-max-preview,Pergeseran dS,KEPEKAAN-B,280,1960,280,0.407357,0.363107,0.452554
+qwen4-max-preview,Pergeseran dS,lapis36,36,252,36,0.411944,0.289861,0.544722
+qwen4-max-preview,Pergeseran dN,294,294,2058,294,0.389707,0.348980,0.431099
+qwen4-max-preview,Pergeseran dN,KEPEKAAN-A,290,2030,290,0.383772,0.343121,0.422038
+qwen4-max-preview,Pergeseran dN,KEPEKAAN-B,280,1960,280,0.374925,0.334021,0.416164
+qwen4-max-preview,Pergeseran dN,lapis36,36,252,36,0.374944,0.259528,0.497528
+qwen4-max-preview,"Overkomit (tau 0,7)",294,294,2058,294,0.006803,0.000000,0.017007
+qwen4-max-preview,"Overkomit (tau 0,7)",KEPEKAAN-A,290,2030,290,0.006897,0.000000,0.017241
+qwen4-max-preview,"Overkomit (tau 0,7)",KEPEKAAN-B,280,1960,280,0.007143,0.000000,0.017857
+qwen4-max-preview,"Overkomit (tau 0,7)",lapis36,36,252,36,0.000000,0.000000,0.000000
+qwen4-max-preview,False-support near R1,294,294,2058,294,0.147313,0.126088,0.169626
+qwen4-max-preview,False-support near R1,KEPEKAAN-A,290,2030,290,0.148414,0.127310,0.170897
+qwen4-max-preview,False-support near R1,KEPEKAAN-B,280,1960,280,0.149750,0.127679,0.173429
+qwen4-max-preview,False-support near R1,lapis36,36,252,36,0.121667,0.080833,0.173611
+qwen4-max-preview,False-support far R1,294,294,2058,294,0.083435,0.068878,0.100544
+qwen4-max-preview,False-support far R1,KEPEKAAN-A,290,2030,290,0.083897,0.069172,0.100897
+qwen4-max-preview,False-support far R1,KEPEKAAN-B,280,1960,280,0.082679,0.067571,0.098821
+qwen4-max-preview,False-support far R1,lapis36,36,252,36,0.110000,0.060278,0.169444
+qwen4-max-preview,Selisih FS near-far R1,294,294,2058,294,0.063878,0.043333,0.083741
+qwen4-max-preview,Selisih FS near-far R1,KEPEKAAN-A,290,2030,290,0.064517,0.043793,0.084621
+qwen4-max-preview,Selisih FS near-far R1,KEPEKAAN-B,280,1960,280,0.067071,0.046143,0.089750
+qwen4-max-preview,Selisih FS near-far R1,lapis36,36,252,36,0.011667,-0.028333,0.046667
+qwen4-max-preview,False-support near R3,294,294,2058,294,0.219762,0.189014,0.252313
+qwen4-max-preview,False-support near R3,KEPEKAAN-A,290,2030,290,0.221172,0.189517,0.252241
+qwen4-max-preview,False-support near R3,KEPEKAAN-B,280,1960,280,0.221536,0.189643,0.254786
+qwen4-max-preview,False-support near R3,lapis36,36,252,36,0.212222,0.147500,0.284167
+qwen4-max-preview,False-support far R3,294,294,2058,294,0.148673,0.122993,0.176531
+qwen4-max-preview,False-support far R3,KEPEKAAN-A,290,2030,290,0.149138,0.123690,0.177103
+qwen4-max-preview,False-support far R3,KEPEKAAN-B,280,1960,280,0.145786,0.118893,0.173071
+qwen4-max-preview,False-support far R3,lapis36,36,252,36,0.220000,0.130833,0.320000
+qwen4-max-preview,Selisih FS near-far R3,294,294,2058,294,0.071088,0.046395,0.095306
+qwen4-max-preview,Selisih FS near-far R3,KEPEKAAN-A,290,2030,290,0.072034,0.048448,0.096034
+qwen4-max-preview,Selisih FS near-far R3,KEPEKAAN-B,280,1960,280,0.075750,0.050357,0.101464
+qwen4-max-preview,Selisih FS near-far R3,lapis36,36,252,36,-0.007778,-0.074444,0.053889
+deepseek-v4.1-flash,Brier batas 1 own R3 (anchor SUPPORTED),294,294,2058,288,0.091905,0.054667,0.134037
+deepseek-v4.1-flash,Brier batas 1 own R3 (anchor SUPPORTED),KEPEKAAN-A,290,2030,284,0.093052,0.055150,0.137079
+deepseek-v4.1-flash,Brier batas 1 own R3 (anchor SUPPORTED),KEPEKAAN-B,280,1960,274,0.090762,0.052591,0.132763
+deepseek-v4.1-flash,Brier batas 1 own R3 (anchor SUPPORTED),lapis36,36,252,35,0.122453,0.007234,0.267470
+deepseek-v4.1-flash,Brier batas 1 near R1 (anchor NEI),294,294,2058,294,0.033908,0.009813,0.062513
+deepseek-v4.1-flash,Brier batas 1 near R1 (anchor NEI),KEPEKAAN-A,290,2030,290,0.034349,0.010302,0.065738
+deepseek-v4.1-flash,Brier batas 1 near R1 (anchor NEI),KEPEKAAN-B,280,1960,280,0.035500,0.010358,0.064669
+deepseek-v4.1-flash,Brier batas 1 near R1 (anchor NEI),lapis36,36,252,36,0.003544,0.001150,0.007494
+deepseek-v4.1-flash,Brier batas 1 near R3 (anchor NEI),294,294,2058,294,0.074864,0.036139,0.116376
+deepseek-v4.1-flash,Brier batas 1 near R3 (anchor NEI),KEPEKAAN-A,290,2030,290,0.075881,0.038384,0.119144
+deepseek-v4.1-flash,Brier batas 1 near R3 (anchor NEI),KEPEKAAN-B,280,1960,280,0.078511,0.038001,0.123658
+deepseek-v4.1-flash,Brier batas 1 near R3 (anchor NEI),lapis36,36,252,36,0.007561,0.002506,0.014978
+deepseek-v4.1-flash,Brier batas 1 far R1 (anchor NEI),294,294,2058,294,0.013437,0.001138,0.031842
+deepseek-v4.1-flash,Brier batas 1 far R1 (anchor NEI),KEPEKAAN-A,290,2030,290,0.013612,0.001138,0.032408
+deepseek-v4.1-flash,Brier batas 1 far R1 (anchor NEI),KEPEKAAN-B,280,1960,280,0.008305,0.001012,0.022433
+deepseek-v4.1-flash,Brier batas 1 far R1 (anchor NEI),lapis36,36,252,36,0.099421,0.000383,0.251858
+deepseek-v4.1-flash,Brier batas 1 far R3 (anchor NEI),294,294,2058,294,0.071243,0.035532,0.114411
+deepseek-v4.1-flash,Brier batas 1 far R3 (anchor NEI),KEPEKAAN-A,290,2030,290,0.072222,0.036139,0.115794
+deepseek-v4.1-flash,Brier batas 1 far R3 (anchor NEI),KEPEKAAN-B,280,1960,280,0.068458,0.032684,0.108777
+deepseek-v4.1-flash,Brier batas 1 far R3 (anchor NEI),lapis36,36,252,36,0.089821,0.000689,0.227444
+deepseek-v4.1-flash,"Brier batas 2 own R3 (gagal = 2,0)",294,294,2058,294,0.130846,,
+deepseek-v4.1-flash,"Brier batas 2 own R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.132506,,
+deepseek-v4.1-flash,"Brier batas 2 own R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.131674,,
+deepseek-v4.1-flash,"Brier batas 2 own R3 (gagal = 2,0)",lapis36,36,252,36,0.174607,,
+deepseek-v4.1-flash,"Brier batas 2 near R1 (gagal = 2,0)",294,294,2058,294,0.033908,,
+deepseek-v4.1-flash,"Brier batas 2 near R1 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.034349,,
+deepseek-v4.1-flash,"Brier batas 2 near R1 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.035500,,
+deepseek-v4.1-flash,"Brier batas 2 near R1 (gagal = 2,0)",lapis36,36,252,36,0.003544,,
+deepseek-v4.1-flash,"Brier batas 2 near R3 (gagal = 2,0)",294,294,2058,294,0.074864,,
+deepseek-v4.1-flash,"Brier batas 2 near R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.075881,,
+deepseek-v4.1-flash,"Brier batas 2 near R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.078511,,
+deepseek-v4.1-flash,"Brier batas 2 near R3 (gagal = 2,0)",lapis36,36,252,36,0.007561,,
+deepseek-v4.1-flash,"Brier batas 2 far R1 (gagal = 2,0)",294,294,2058,294,0.013437,,
+deepseek-v4.1-flash,"Brier batas 2 far R1 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.013612,,
+deepseek-v4.1-flash,"Brier batas 2 far R1 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.008305,,
+deepseek-v4.1-flash,"Brier batas 2 far R1 (gagal = 2,0)",lapis36,36,252,36,0.099421,,
+deepseek-v4.1-flash,"Brier batas 2 far R3 (gagal = 2,0)",294,294,2058,294,0.071243,,
+deepseek-v4.1-flash,"Brier batas 2 far R3 (gagal = 2,0)",KEPEKAAN-A,290,2030,290,0.072222,,
+deepseek-v4.1-flash,"Brier batas 2 far R3 (gagal = 2,0)",KEPEKAAN-B,280,1960,280,0.068458,,
+deepseek-v4.1-flash,"Brier batas 2 far R3 (gagal = 2,0)",lapis36,36,252,36,0.089821,,
+deepseek-v4.1-flash,Sesuai (label R1 = label R3),294,294,2058,288,0.489583,0.434028,0.548611
+deepseek-v4.1-flash,Sesuai (label R1 = label R3),KEPEKAAN-A,290,2030,284,0.496479,0.433099,0.552817
+deepseek-v4.1-flash,Sesuai (label R1 = label R3),KEPEKAAN-B,280,1960,274,0.507299,0.448905,0.565693
+deepseek-v4.1-flash,Sesuai (label R1 = label R3),lapis36,36,252,35,0.428571,0.257143,0.600000
+deepseek-v4.1-flash,Pergeseran dS,294,294,2058,288,0.428212,0.374653,0.477326
+deepseek-v4.1-flash,Pergeseran dS,KEPEKAAN-A,290,2030,284,0.421180,0.368715,0.474736
+deepseek-v4.1-flash,Pergeseran dS,KEPEKAAN-B,280,1960,274,0.410091,0.356496,0.463522
+deepseek-v4.1-flash,Pergeseran dS,lapis36,36,252,35,0.444857,0.292286,0.597714
+deepseek-v4.1-flash,Pergeseran dN,294,294,2058,288,0.410191,0.357413,0.457483
+deepseek-v4.1-flash,Pergeseran dN,KEPEKAAN-A,290,2030,284,0.403011,0.352130,0.455194
+deepseek-v4.1-flash,Pergeseran dN,KEPEKAAN-B,280,1960,274,0.391697,0.339617,0.445657
+deepseek-v4.1-flash,Pergeseran dN,lapis36,36,252,35,0.435857,0.284714,0.587000
+deepseek-v4.1-flash,"Overkomit (tau 0,7)",294,294,2058,288,0.020833,0.006944,0.038194
+deepseek-v4.1-flash,"Overkomit (tau 0,7)",KEPEKAAN-A,290,2030,284,0.021127,0.007042,0.038732
+deepseek-v4.1-flash,"Overkomit (tau 0,7)",KEPEKAAN-B,280,1960,274,0.021898,0.007299,0.040146
+deepseek-v4.1-flash,"Overkomit (tau 0,7)",lapis36,36,252,35,0.028571,0.000000,0.085714
+deepseek-v4.1-flash,False-support near R1,294,294,2058,294,0.044626,0.031190,0.059898
+deepseek-v4.1-flash,False-support near R1,KEPEKAAN-A,290,2030,290,0.044828,0.032034,0.061172
+deepseek-v4.1-flash,False-support near R1,KEPEKAAN-B,280,1960,280,0.045321,0.031679,0.061214
+deepseek-v4.1-flash,False-support near R1,lapis36,36,252,36,0.028889,0.018333,0.041667
+deepseek-v4.1-flash,False-support far R1,294,294,2058,294,0.020102,0.012449,0.029524
+deepseek-v4.1-flash,False-support far R1,KEPEKAAN-A,290,2030,290,0.020172,0.012310,0.030000
+deepseek-v4.1-flash,False-support far R1,KEPEKAAN-B,280,1960,280,0.017429,0.011500,0.025929
+deepseek-v4.1-flash,False-support far R1,lapis36,36,252,36,0.063056,0.008889,0.140833
+deepseek-v4.1-flash,Selisih FS near-far R1,294,294,2058,294,0.024524,0.008946,0.041429
+deepseek-v4.1-flash,Selisih FS near-far R1,KEPEKAAN-A,290,2030,290,0.024655,0.008483,0.042103
+deepseek-v4.1-flash,Selisih FS near-far R1,KEPEKAAN-B,280,1960,280,0.027893,0.012286,0.045071
+deepseek-v4.1-flash,Selisih FS near-far R1,lapis36,36,252,36,-0.034167,-0.111667,0.021667
+deepseek-v4.1-flash,False-support near R3,294,294,2058,294,0.068878,0.047857,0.090816
+deepseek-v4.1-flash,False-support near R3,KEPEKAAN-A,290,2030,290,0.069586,0.049552,0.092517
+deepseek-v4.1-flash,False-support near R3,KEPEKAAN-B,280,1960,280,0.071321,0.050107,0.095250
+deepseek-v4.1-flash,False-support near R3,lapis36,36,252,36,0.039444,0.022778,0.059167
+deepseek-v4.1-flash,False-support far R3,294,294,2058,294,0.049898,0.030408,0.073129
+deepseek-v4.1-flash,False-support far R3,KEPEKAAN-A,290,2030,290,0.050448,0.030828,0.074345
+deepseek-v4.1-flash,False-support far R3,KEPEKAAN-B,280,1960,280,0.048429,0.028786,0.070607
+deepseek-v4.1-flash,False-support far R3,lapis36,36,252,36,0.061111,0.008333,0.137500
+deepseek-v4.1-flash,Selisih FS near-far R3,294,294,2058,294,0.018980,-0.004014,0.040714
+deepseek-v4.1-flash,Selisih FS near-far R3,KEPEKAAN-A,290,2030,290,0.019138,-0.003000,0.041724
+deepseek-v4.1-flash,Selisih FS near-far R3,KEPEKAAN-B,280,1960,280,0.022893,0.000214,0.045179
+deepseek-v4.1-flash,Selisih FS near-far R3,lapis36,36,252,36,-0.021667,-0.094167,0.031667
