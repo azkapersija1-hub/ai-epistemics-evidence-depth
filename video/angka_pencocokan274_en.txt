@@ -1,0 +1,29 @@
+=== bahasa: en ===
+sumber angka: results\utama294\tabel_utama294_3model.csv (sha256 sama dengan CSV sumber C:\EPIS_KERJA: True)
+CSV UTAMA-274 | qwen3.8-flash | Brier own R3 = 0.034346 (n=274) | near R3 = 0.144107 | far R3 = 0.093408 (n=273) | Sesuai = 0.514599 [0.456204; 0.572993] (n=274) | FS near R3 = 0.123285 | FS far R3 = 0.075018
+CSV UTAMA-274 | qwen3.8-flash | selisih FS near-far R1 = 0.033358 [0.017263; 0.050839] | R3 = 0.048266 [0.018988; 0.079026]
+CSV UTAMA-274 | qwen4-max-preview | Brier own R3 = 0.023453 (n=274) | near R3 = 0.219118 | far R3 = 0.150197 (n=274) | Sesuai = 0.551095 [0.492701; 0.609489] (n=274) | FS near R3 = 0.211606 | FS far R3 = 0.148540
+CSV UTAMA-274 | qwen4-max-preview | selisih FS near-far R1 = 0.054891 [0.033796; 0.075657] | R3 = 0.063066 [0.038942; 0.087920]
+CSV UTAMA-274 | deepseek-v4.1-flash | Brier own R3 = 0.098075 (n=268) | near R3 = 0.062226 | far R3 = 0.076397 (n=274) | Sesuai = 0.500000 [0.444030; 0.559701] (n=268) | FS near R3 = 0.061423 | FS far R3 = 0.052810
+CSV UTAMA-274 | deepseek-v4.1-flash | selisih FS near-far R1 = 0.023467 [0.005292; 0.041788] | R3 = 0.008613 [-0.013285; 0.027518]
+--- pencocokan nilai kunci Table 1 (set 274): CSV dibulatkan 4 desimal vs nilai diminta ---
+  Brier own R3 | tampil (qwen3.8, qwen4, deepseek) = [0.0343, 0.0235, 0.0981] | diminta = [0.0343, 0.0235, 0.0981] | cocok = True
+  Brier near R3 | tampil (qwen3.8, qwen4, deepseek) = [0.1441, 0.2191, 0.0622] | diminta = [0.1441, 0.2191, 0.0622] | cocok = True
+  agreement R1-R3 | tampil (qwen3.8, qwen4, deepseek) = [0.5146, 0.5511, 0.5] | diminta = [0.5146, 0.5511, 0.5] | cocok = True
+  selisih near-far R3 | tampil (qwen3.8, qwen4, deepseek) = [0.0483, 0.0631, 0.0086] | diminta = [0.0483, 0.0631, 0.0086] | cocok = True
+  selisih near-far R1 | tampil (qwen3.8, qwen4, deepseek) = [0.0334, 0.0549, 0.0235] | diminta = [0.0334, 0.0549, 0.0235] | cocok = True
+  deepseek selisih R3 CI [-0.013285; 0.027518] memuat nol = True
+G2_near_far_en.svg memuat nilai selisih R1 dan R3 yang sama dengan CSV: nilai hilang = []
+CSV KESTABILAN | qwen3.8-flash | SEMUA | persen_argmax_sama = 0.894737 | gagal dihitung beda = 0.894737 | n_observasi = 133
+CSV KESTABILAN | qwen4-max-preview | SEMUA | persen_argmax_sama = 0.947368 | gagal dihitung beda = 0.947368 | n_observasi = 133
+CSV KESTABILAN | deepseek-v4.1-flash | SEMUA | persen_argmax_sama = 0.938931 | gagal dihitung beda = 0.924812 | n_observasi = 133
+KESTABILAN.md | Cakupan = 19 klaim (sampel uji ulang terpisah)
+jumlah_set.md | UTAMA-274: 274 klaim, 1918 observasi per model (3 model cocok)
+n tampil: deepseek own R3 = 268/274 | qwen3.8 far R3 = 273/274 | deepseek Sesuai = 268/274 (gagal parse dikecualikan)
+lapis_36_claim_id.txt = 36 baris; PREREG memuat '294 klaim' dan '40 pernyataan' (294 hanya disebut sebagai analisis tambahan)
+linimasa: total 83.5 s, 2505 bingkai, transisi 0.5 s
+periksa tata letak: 0 masalah
+  suhu GPU sebelum encode: 49 C
+encode en percobaan 1, pengkode nvenc
+ffprobe en: {"programs": [], "stream_groups": [], "streams": [{"codec_name": "h264", "codec_type": "video", "width": 1920, "height": 1080, "pix_fmt": "yuv420p", "r_frame_rate": "30/1", "nb_frames": "2505"}], "format": {"duration": "83.500000", "size": "4041899"}}
+suhu GPU tertinggi selama sesi: 52 C
